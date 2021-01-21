@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace lliyplliuk\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType;
+use lliyplliuk\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType;
 
 class SellingManagerAutoListMinActiveItemsTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SellingManagerAutoListMinActiveItemsTypeTest extends \PHPUnit_Framework_Te
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

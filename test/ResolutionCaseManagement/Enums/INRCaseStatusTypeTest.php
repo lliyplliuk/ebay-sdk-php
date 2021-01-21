@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
+namespace lliyplliuk\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType;
+use lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType;
 
 class INRCaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class INRCaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType', $this->obj);
     }
 }

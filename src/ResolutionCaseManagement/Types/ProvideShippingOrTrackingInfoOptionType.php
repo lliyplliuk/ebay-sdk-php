@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  */
-class ProvideShippingOrTrackingInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class ProvideShippingOrTrackingInfoOptionType extends \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
  * @property \DateTime $LastModifiedTime
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethod
- * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType $Status
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethod
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\CompleteStatusCodeType $Status
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
  */
-class CheckoutStatusType extends \DTS\eBaySDK\Types\BaseType
+class CheckoutStatusType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

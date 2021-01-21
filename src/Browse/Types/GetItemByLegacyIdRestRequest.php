@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace lliyplliuk\eBaySDK\Browse\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Browse\Types;
  * @property string $legacy_variation_id
  * @property string $legacy_variation_sku
  */
-class GetItemByLegacyIdRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetItemByLegacyIdRestRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

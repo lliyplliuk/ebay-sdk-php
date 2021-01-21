@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace lliyplliuk\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Amount $maxSoldInventoryValue
+ * @property \lliyplliuk\eBaySDK\Account\Types\Amount $maxSoldInventoryValue
  * @property integer $maxSoldQuantity
- * @property \DTS\eBaySDK\Account\Types\Amount $minSoldInventoryValue
+ * @property \lliyplliuk\eBaySDK\Account\Types\Amount $minSoldInventoryValue
  * @property integer $minSoldQuantity
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $period
+ * @property \lliyplliuk\eBaySDK\Account\Types\TimeDuration $period
  */
-class SoldAggregatedMetrics extends \DTS\eBaySDK\Types\BaseType
+class SoldAggregatedMetrics extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'maxSoldInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'maxSoldInventoryValue'
@@ -37,7 +37,7 @@ class SoldAggregatedMetrics extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'maxSoldQuantity'
         ],
         'minSoldInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'minSoldInventoryValue'
@@ -49,7 +49,7 @@ class SoldAggregatedMetrics extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'minSoldQuantity'
         ],
         'period' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'period'

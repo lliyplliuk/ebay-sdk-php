@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Enums;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Enums;
 
-use DTS\eBaySDK\PostOrder\Enums\RefundPaymentTypeEnum;
+use lliyplliuk\eBaySDK\PostOrder\Enums\RefundPaymentTypeEnum;
 
 class RefundPaymentTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class RefundPaymentTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\RefundPaymentTypeEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Enums\RefundPaymentTypeEnum', $this->obj);
     }
 }

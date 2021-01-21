@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace lliyplliuk\eBaySDK\Browse\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
-use DTS\eBaySDK\HttpHeadersTrait;
+use lliyplliuk\eBaySDK\StatusCodeTrait;
+use lliyplliuk\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Browse\Types\ErrorDetailV3[] $warnings
+ * @property \lliyplliuk\eBaySDK\Browse\Types\ErrorDetailV3[] $errors
+ * @property \lliyplliuk\eBaySDK\Browse\Types\ErrorDetailV3[] $warnings
  */
-class GetItemsByItemGroupRestResponse extends \DTS\eBaySDK\Browse\Types\Items
+class GetItemsByItemGroupRestResponse extends \lliyplliuk\eBaySDK\Browse\Types\Items
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class GetItemsByItemGroupRestResponse extends \DTS\eBaySDK\Browse\Types\Items
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
+            'type' => 'lliyplliuk\eBaySDK\Browse\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
+            'type' => 'lliyplliuk\eBaySDK\Browse\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

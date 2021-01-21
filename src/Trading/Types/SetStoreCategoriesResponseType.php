@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $TaskID
- * @property \DTS\eBaySDK\Trading\Enums\TaskStatusCodeType $Status
- * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $CustomCategory
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\TaskStatusCodeType $Status
+ * @property \lliyplliuk\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $CustomCategory
  */
-class SetStoreCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class SetStoreCategoriesResponseType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class SetStoreCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'elementName' => 'Status'
         ],
         'CustomCategory' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CustomCategory'

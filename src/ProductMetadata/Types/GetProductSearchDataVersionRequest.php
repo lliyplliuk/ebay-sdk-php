@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace lliyplliuk\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $categoryId
  */
-class GetProductSearchDataVersionRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest
+class GetProductSearchDataVersionRequest extends \lliyplliuk\eBaySDK\ProductMetadata\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

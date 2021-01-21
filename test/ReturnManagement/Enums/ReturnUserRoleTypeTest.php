@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
+namespace lliyplliuk\eBaySDK\Test\ReturnManagement\Enums;
 
-use DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType;
+use lliyplliuk\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType;
 
 class ReturnUserRoleTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ReturnUserRoleTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType', $this->obj);
     }
 }

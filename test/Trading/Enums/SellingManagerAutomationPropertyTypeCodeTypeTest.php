@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace lliyplliuk\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\SellingManagerAutomationPropertyTypeCodeType;
+use lliyplliuk\eBaySDK\Trading\Enums\SellingManagerAutomationPropertyTypeCodeType;
 
 class SellingManagerAutomationPropertyTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellingManagerAutomationPropertyTypeCodeTypeTest extends \PHPUnit_Framewor
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerAutomationPropertyTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Enums\SellingManagerAutomationPropertyTypeCodeType', $this->obj);
     }
 }

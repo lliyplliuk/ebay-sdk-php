@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\RefundLineType;
+use lliyplliuk\eBaySDK\MerchantData\Types\RefundLineType;
 
 class RefundLineTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class RefundLineTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\RefundLineType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Types\RefundLineType', $this->obj);
     }
 
     public function testExtendsAmountType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AmountType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Types\AmountType', $this->obj);
     }
 }

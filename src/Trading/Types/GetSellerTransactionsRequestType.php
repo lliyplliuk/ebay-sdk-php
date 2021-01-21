@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property \DateTime $ModTimeFrom
  * @property \DateTime $ModTimeTo
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property boolean $IncludeFinalValueFee
  * @property boolean $IncludeContainingOrder
- * @property \DTS\eBaySDK\Trading\Types\SKUArrayType $SKUArray
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SKUArrayType $SKUArray
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
  * @property integer $NumberOfDays
- * @property \DTS\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType $InventoryTrackingMethod
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType $InventoryTrackingMethod
  * @property boolean $IncludeCodiceFiscale
  */
-class GetSellerTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellerTransactionsRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class GetSellerTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
             'elementName' => 'ModTimeTo'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
@@ -60,7 +60,7 @@ class GetSellerTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstra
             'elementName' => 'IncludeContainingOrder'
         ],
         'SKUArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SKUArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SKUArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SKUArray'

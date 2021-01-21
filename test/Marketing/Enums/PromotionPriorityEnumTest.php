@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Enums;
+namespace lliyplliuk\eBaySDK\Test\Marketing\Enums;
 
-use DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum;
+use lliyplliuk\eBaySDK\Marketing\Enums\PromotionPriorityEnum;
 
 class PromotionPriorityEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class PromotionPriorityEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Marketing\Enums\PromotionPriorityEnum', $this->obj);
     }
 }

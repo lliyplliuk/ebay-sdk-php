@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Finding\Types;
+namespace lliyplliuk\eBaySDK\Test\Finding\Types;
 
-use DTS\eBaySDK\Finding\Types\GetHistogramsResponse;
+use lliyplliuk\eBaySDK\Finding\Types\GetHistogramsResponse;
 
 class GetHistogramsResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetHistogramsResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\GetHistogramsResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Finding\Types\GetHistogramsResponse', $this->obj);
     }
 
     public function testExtendsBaseServiceResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseServiceResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Finding\Types\BaseServiceResponse', $this->obj);
     }
 }

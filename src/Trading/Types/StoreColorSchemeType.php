@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $ColorSchemeID
  * @property string $Name
- * @property \DTS\eBaySDK\Trading\Types\StoreColorType $Color
- * @property \DTS\eBaySDK\Trading\Types\StoreFontType $Font
+ * @property \lliyplliuk\eBaySDK\Trading\Types\StoreColorType $Color
+ * @property \lliyplliuk\eBaySDK\Trading\Types\StoreFontType $Font
  */
-class StoreColorSchemeType extends \DTS\eBaySDK\Types\BaseType
+class StoreColorSchemeType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,13 +36,13 @@ class StoreColorSchemeType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Name'
         ],
         'Color' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreColorType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\StoreColorType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Color'
         ],
         'Font' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreFontType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\StoreFontType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Font'

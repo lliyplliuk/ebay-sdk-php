@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $BidCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $BidIncrement
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedCurrentPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $CurrentPrice
- * @property \DTS\eBaySDK\Trading\Types\UserType $HighBidder
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $BidIncrement
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $ConvertedCurrentPrice
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $CurrentPrice
+ * @property \lliyplliuk\eBaySDK\Trading\Types\UserType $HighBidder
  * @property integer $LeadCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MinimumToBid
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $MinimumToBid
  * @property integer $QuantitySold
  * @property boolean $ReserveMet
  * @property boolean $SecondChanceEligible
  * @property integer $BidderCount
- * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
- * @property \DTS\eBaySDK\Trading\Types\AmountType $FinalValueFee
- * @property \DTS\eBaySDK\Trading\Types\PromotionalSaleDetailsType $PromotionalSaleDetails
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $FinalValueFee
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PromotionalSaleDetailsType $PromotionalSaleDetails
  * @property boolean $AdminEnded
  * @property boolean $SoldAsBin
  * @property integer $QuantitySoldByPickupInStore
- * @property \DTS\eBaySDK\Trading\Types\SuggestedBidValueType $SuggestedBidValues
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SuggestedBidValueType $SuggestedBidValues
  */
-class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
+class SellingStatusType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -44,25 +44,25 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'BidCount'
         ],
         'BidIncrement' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BidIncrement'
         ],
         'ConvertedCurrentPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedCurrentPrice'
         ],
         'CurrentPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CurrentPrice'
         ],
         'HighBidder' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'HighBidder'
@@ -74,7 +74,7 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'LeadCount'
         ],
         'MinimumToBid' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinimumToBid'
@@ -110,13 +110,13 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ListingStatus'
         ],
         'FinalValueFee' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FinalValueFee'
         ],
         'PromotionalSaleDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PromotionalSaleDetailsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PromotionalSaleDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleDetails'
@@ -140,7 +140,7 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'QuantitySoldByPickupInStore'
         ],
         'SuggestedBidValues' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SuggestedBidValueType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SuggestedBidValueType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SuggestedBidValues'

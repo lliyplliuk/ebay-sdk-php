@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Address $address
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\Address $address
  * @property string $name
  */
-class ReturnAddressType extends \DTS\eBaySDK\Types\BaseType
+class ReturnAddressType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'address' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Address',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'address'

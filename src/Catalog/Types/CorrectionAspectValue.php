@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace lliyplliuk\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $newValue
  * @property string $value
  */
-class CorrectionAspectValue extends \DTS\eBaySDK\Types\BaseType
+class CorrectionAspectValue extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

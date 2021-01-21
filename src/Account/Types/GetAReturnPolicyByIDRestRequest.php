@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace lliyplliuk\eBaySDK\Account\Types;
 
 /**
  *
  * @property string $returnPolicyId
  */
-class GetAReturnPolicyByIDRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetAReturnPolicyByIDRestRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

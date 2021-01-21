@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ReturnManagement\Types;
+namespace lliyplliuk\eBaySDK\Test\ReturnManagement\Types;
 
-use DTS\eBaySDK\ReturnManagement\Types\BaseRequest;
+use lliyplliuk\eBaySDK\ReturnManagement\Types\BaseRequest;
 
 class BaseRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BaseRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ReturnManagement\Types\BaseRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

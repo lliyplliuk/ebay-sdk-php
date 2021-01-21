@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace lliyplliuk\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType $jobAction
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\ItemEventType $filterType
+ * @property \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetItemJobActionType $jobAction
+ * @property \lliyplliuk\eBaySDK\BulkDataExchange\Enums\ItemEventType $filterType
  * @property boolean $includeAttributes
  * @property boolean $includeDescription
  * @property \DateTime $reportDateFrom
@@ -21,14 +21,14 @@ namespace DTS\eBaySDK\BulkDataExchange\Types;
  * @property string[] $timeFrame
  * @property string[] $changedFieldSelector
  */
-class GetItemInfoReportFilter extends \DTS\eBaySDK\Types\BaseType
+class GetItemInfoReportFilter extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'jobAction' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\GetItemJobActionType',
+            'type' => 'lliyplliuk\eBaySDK\BulkDataExchange\Types\GetItemJobActionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'jobAction'

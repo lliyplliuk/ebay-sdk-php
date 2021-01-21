@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace lliyplliuk\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\VeROReportItemsResponseType;
+use lliyplliuk\eBaySDK\Trading\Types\VeROReportItemsResponseType;
 
 class VeROReportItemsResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class VeROReportItemsResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\VeROReportItemsResponseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Types\VeROReportItemsResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }
 }

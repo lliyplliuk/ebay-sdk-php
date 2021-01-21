@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\VariationType[] $Variation
- * @property \DTS\eBaySDK\MerchantData\Types\PicturesType[] $Pictures
- * @property \DTS\eBaySDK\MerchantData\Types\NameValueListArrayType $VariationSpecificsSet
- * @property \DTS\eBaySDK\MerchantData\Types\ModifyNameArrayType $ModifyNameList
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\VariationType[] $Variation
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\PicturesType[] $Pictures
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\NameValueListArrayType $VariationSpecificsSet
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\ModifyNameArrayType $ModifyNameList
  */
-class VariationsType extends \DTS\eBaySDK\Types\BaseType
+class VariationsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Variation' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\VariationType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\VariationType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Variation'
         ],
         'Pictures' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PicturesType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\PicturesType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Pictures'
         ],
         'VariationSpecificsSet' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\NameValueListArrayType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationSpecificsSet'
         ],
         'ModifyNameList' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ModifyNameArrayType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\ModifyNameArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ModifyNameList'

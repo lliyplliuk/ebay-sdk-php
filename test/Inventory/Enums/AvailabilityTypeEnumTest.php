@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Enums;
+namespace lliyplliuk\eBaySDK\Test\Inventory\Enums;
 
-use DTS\eBaySDK\Inventory\Enums\AvailabilityTypeEnum;
+use lliyplliuk\eBaySDK\Inventory\Enums\AvailabilityTypeEnum;
 
 class AvailabilityTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AvailabilityTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\AvailabilityTypeEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Inventory\Enums\AvailabilityTypeEnum', $this->obj);
     }
 }

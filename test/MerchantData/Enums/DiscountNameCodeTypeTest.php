@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace lliyplliuk\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\DiscountNameCodeType;
+use lliyplliuk\eBaySDK\MerchantData\Enums\DiscountNameCodeType;
 
 class DiscountNameCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class DiscountNameCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\DiscountNameCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Enums\DiscountNameCodeType', $this->obj);
     }
 }

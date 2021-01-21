@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property string $BestOfferID
- * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType $BestOfferStatus
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\BestOfferStatusCodeType $BestOfferStatus
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PaginationType $Pagination
  */
-class GetBestOffersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetBestOffersRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class GetBestOffersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'elementName' => 'BestOfferStatus'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

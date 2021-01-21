@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace lliyplliuk\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType;
+use lliyplliuk\eBaySDK\Trading\Enums\GallerySortFilterCodeType;
 
 class GallerySortFilterCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class GallerySortFilterCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Enums\GallerySortFilterCodeType', $this->obj);
     }
 }

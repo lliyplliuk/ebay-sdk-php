@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace lliyplliuk\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Amount $minimumAdvertisedPrice
- * @property \DTS\eBaySDK\Inventory\Enums\SoldOnEnum $originallySoldForRetailPriceOn
- * @property \DTS\eBaySDK\Inventory\Types\Amount $originalRetailPrice
- * @property \DTS\eBaySDK\Inventory\Types\Amount $price
- * @property \DTS\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum $pricingVisibility
+ * @property \lliyplliuk\eBaySDK\Inventory\Types\Amount $minimumAdvertisedPrice
+ * @property \lliyplliuk\eBaySDK\Inventory\Enums\SoldOnEnum $originallySoldForRetailPriceOn
+ * @property \lliyplliuk\eBaySDK\Inventory\Types\Amount $originalRetailPrice
+ * @property \lliyplliuk\eBaySDK\Inventory\Types\Amount $price
+ * @property \lliyplliuk\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum $pricingVisibility
  */
-class PricingSummary extends \DTS\eBaySDK\Types\BaseType
+class PricingSummary extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'minimumAdvertisedPrice' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'minimumAdvertisedPrice'
@@ -37,13 +37,13 @@ class PricingSummary extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'originallySoldForRetailPriceOn'
         ],
         'originalRetailPrice' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'originalRetailPrice'
         ],
         'price' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'price'

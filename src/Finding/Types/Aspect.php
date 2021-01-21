@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace lliyplliuk\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\AspectValueHistogram[] $valueHistogram
+ * @property \lliyplliuk\eBaySDK\Finding\Types\AspectValueHistogram[] $valueHistogram
  * @property string $name
  */
-class Aspect extends \DTS\eBaySDK\Types\BaseType
+class Aspect extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'valueHistogram' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectValueHistogram',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\AspectValueHistogram',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'valueHistogram'

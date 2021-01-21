@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace lliyplliuk\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\BidApprovalType;
+use lliyplliuk\eBaySDK\Trading\Types\BidApprovalType;
 
 class BidApprovalTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BidApprovalTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BidApprovalType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Types\BidApprovalType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

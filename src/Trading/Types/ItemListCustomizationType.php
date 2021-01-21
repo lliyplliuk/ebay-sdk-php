@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property boolean $Include
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
- * @property \DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType $Sort
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\ItemSortTypeCodeType $Sort
  * @property integer $DurationInDays
  * @property boolean $IncludeNotes
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DTS\eBaySDK\Trading\Enums\OrderStatusFilterCodeType $OrderStatusFilter
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\OrderStatusFilterCodeType $OrderStatusFilter
  */
-class ItemListCustomizationType extends \DTS\eBaySDK\Types\BaseType
+class ItemListCustomizationType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -57,7 +57,7 @@ class ItemListCustomizationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'IncludeNotes'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

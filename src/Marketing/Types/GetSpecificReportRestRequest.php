@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $report_id
  */
-class GetSpecificReportRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetSpecificReportRestRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

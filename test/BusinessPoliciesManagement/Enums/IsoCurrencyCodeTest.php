@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Enums;
+namespace lliyplliuk\eBaySDK\Test\BusinessPoliciesManagement\Enums;
 
-use DTS\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode;
+use lliyplliuk\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode;
 
 class IsoCurrencyCodeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class IsoCurrencyCodeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode', $this->obj);
     }
 }

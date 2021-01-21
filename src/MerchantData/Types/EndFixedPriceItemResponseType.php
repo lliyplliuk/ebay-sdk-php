@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property \DateTime $EndTime
  * @property string $SKU
  */
-class EndFixedPriceItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class EndFixedPriceItemResponseType extends \lliyplliuk\eBaySDK\MerchantData\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

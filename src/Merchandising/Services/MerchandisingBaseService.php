@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Merchandising\Services;
+namespace lliyplliuk\eBaySDK\Merchandising\Services;
 
 /**
  * Base class for the Merchandising service.
  */
-class MerchandisingBaseService extends \DTS\eBaySDK\Services\BaseService
+class MerchandisingBaseService extends \lliyplliuk\eBaySDK\Services\BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +46,7 @@ class MerchandisingBaseService extends \DTS\eBaySDK\Services\BaseService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Merchandising\Services\MerchandisingService::API_VERSION
+                'default' => \lliyplliuk\eBaySDK\Merchandising\Services\MerchandisingService::API_VERSION
             ],
             'globalId' => [
                 'valid' => ['string']

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string[] $CategoryID
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
+ * @property \lliyplliuk\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
  */
-class CategoryItemSpecificsType extends \DTS\eBaySDK\Types\BaseType
+class CategoryItemSpecificsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CategoryItemSpecificsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'CategoryID'
         ],
         'ItemSpecifics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemSpecifics'

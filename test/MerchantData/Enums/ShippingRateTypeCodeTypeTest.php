@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace lliyplliuk\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\ShippingRateTypeCodeType;
+use lliyplliuk\eBaySDK\MerchantData\Enums\ShippingRateTypeCodeType;
 
 class ShippingRateTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ShippingRateTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\ShippingRateTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Enums\ShippingRateTypeCodeType', $this->obj);
     }
 }

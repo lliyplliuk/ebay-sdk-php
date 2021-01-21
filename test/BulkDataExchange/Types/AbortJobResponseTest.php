@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
+namespace lliyplliuk\eBaySDK\Test\BulkDataExchange\Types;
 
-use DTS\eBaySDK\BulkDataExchange\Types\AbortJobResponse;
+use lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortJobResponse;
 
 class AbortJobResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AbortJobResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\AbortJobResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortJobResponse', $this->obj);
     }
 
     public function testExtendsBaseServiceResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\BulkDataExchange\Types\BaseServiceResponse', $this->obj);
     }
 }

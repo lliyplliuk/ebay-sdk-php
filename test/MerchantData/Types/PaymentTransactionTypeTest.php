@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\PaymentTransactionType;
+use lliyplliuk\eBaySDK\MerchantData\Types\PaymentTransactionType;
 
 class PaymentTransactionTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PaymentTransactionTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\PaymentTransactionType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Types\PaymentTransactionType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

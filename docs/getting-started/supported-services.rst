@@ -10,53 +10,53 @@ Namespaces
 ============================= ========================================
 eBay Service                  SDK Namespace
 ============================= ========================================
-`Account`_                    DTS\\eBaySDK\\Account
+`Account`_                    lliyplliuk\\eBaySDK\\Account
 ----------------------------- ----------------------------------------
-`Analytics`_                  DTS\\eBaySDK\\Analytics
+`Analytics`_                  lliyplliuk\\eBaySDK\\Analytics
 ----------------------------- ----------------------------------------
-`Browse`_                     DTS\\eBaySDK\\Browse
+`Browse`_                     lliyplliuk\\eBaySDK\\Browse
 ----------------------------- ----------------------------------------
-`Bulk Data Exchange`_         DTS\\eBaySDK\\BulkDataExchange
+`Bulk Data Exchange`_         lliyplliuk\\eBaySDK\\BulkDataExchange
 ----------------------------- ----------------------------------------
-`Business Policies`_          DTS\\eBaySDK\\BusinessPoliciesManagement
+`Business Policies`_          lliyplliuk\\eBaySDK\\BusinessPoliciesManagement
 ----------------------------- ----------------------------------------
-`Feedback`_                   DTS\\eBaySDK\\Feedback
+`Feedback`_                   lliyplliuk\\eBaySDK\\Feedback
 ----------------------------- ----------------------------------------
-`File Transfer`_              DTS\\eBaySDK\\FileTransfer
+`File Transfer`_              lliyplliuk\\eBaySDK\\FileTransfer
 ----------------------------- ----------------------------------------
-`Finding`_                    DTS\\eBaySDK\\Finding
+`Finding`_                    lliyplliuk\\eBaySDK\\Finding
 ----------------------------- ----------------------------------------
-`Fulfillment`_                DTS\\eBaySDK\\Fulfillment
+`Fulfillment`_                lliyplliuk\\eBaySDK\\Fulfillment
 ----------------------------- ----------------------------------------
-`Half Finding`_               DTS\\eBaySDK\\HalfFinding
+`Half Finding`_               lliyplliuk\\eBaySDK\\HalfFinding
 ----------------------------- ----------------------------------------
-`Inventory`_                  DTS\\eBaySDK\\Inventory
+`Inventory`_                  lliyplliuk\\eBaySDK\\Inventory
 ----------------------------- ----------------------------------------
-`Marketing`_                  DTS\\eBaySDK\\Marketing
+`Marketing`_                  lliyplliuk\\eBaySDK\\Marketing
 ----------------------------- ----------------------------------------
-`Merchandising`_              DTS\\eBaySDK\\Merchandising
+`Merchandising`_              lliyplliuk\\eBaySDK\\Merchandising
 ----------------------------- ----------------------------------------
-`Merchant Data`_              DTS\\eBaySDK\\MerchantData
+`Merchant Data`_              lliyplliuk\\eBaySDK\\MerchantData
 ----------------------------- ----------------------------------------
-`Metadata`_                   DTS\\eBaySDK\\Metadata
+`Metadata`_                   lliyplliuk\\eBaySDK\\Metadata
 ----------------------------- ----------------------------------------
-`Order`_                      DTS\\eBaySDK\\Order
+`Order`_                      lliyplliuk\\eBaySDK\\Order
 ----------------------------- ----------------------------------------
-`Post Order`_                 DTS\\eBaySDK\\PostOrder
+`Post Order`_                 lliyplliuk\\eBaySDK\\PostOrder
 ----------------------------- ----------------------------------------
-`Product`_                    DTS\\eBaySDK\\Product
+`Product`_                    lliyplliuk\\eBaySDK\\Product
 ----------------------------- ----------------------------------------
-`Product Metadata`_           DTS\\eBaySDK\\ProductMetadata
+`Product Metadata`_           lliyplliuk\\eBaySDK\\ProductMetadata
 ----------------------------- ----------------------------------------
-`Related Items Management`_   DTS\\eBaySDK\\RelatedItemsManagement
+`Related Items Management`_   lliyplliuk\\eBaySDK\\RelatedItemsManagement
 ----------------------------- ----------------------------------------
-`Resolution Case Management`_ DTS\\eBaySDK\\ResolutionCaseManagement
+`Resolution Case Management`_ lliyplliuk\\eBaySDK\\ResolutionCaseManagement
 ----------------------------- ----------------------------------------
-`Return Management`_          DTS\\eBaySDK\\ReturnManagement
+`Return Management`_          lliyplliuk\\eBaySDK\\ReturnManagement
 ----------------------------- ----------------------------------------
-`Shopping`_                   DTS\\eBaySDK\\Shopping
+`Shopping`_                   lliyplliuk\\eBaySDK\\Shopping
 ----------------------------- ----------------------------------------
-`Trading`_                    DTS\\eBaySDK\\Trading
+`Trading`_                    lliyplliuk\\eBaySDK\\Trading
 ============================= ========================================
 
 .. _Account: http://developer.ebay.com/devzone/rest/api-ref/account/index.html

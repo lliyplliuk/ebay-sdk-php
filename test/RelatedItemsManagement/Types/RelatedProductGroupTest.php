@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
+namespace lliyplliuk\eBaySDK\Test\RelatedItemsManagement\Types;
 
-use DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup;
+use lliyplliuk\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup;
 
 class RelatedProductGroupTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class RelatedProductGroupTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,12 +16,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $FeedbackID
  * @property string $ItemID
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType[] $CommentType
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackTypeCodeType $FeedbackType
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\CommentTypeCodeType[] $CommentType
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\FeedbackTypeCodeType $FeedbackType
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property string $OrderLineItemID
  */
-class GetFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetFeedbackRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -64,7 +64,7 @@ class GetFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestT
             'elementName' => 'FeedbackType'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

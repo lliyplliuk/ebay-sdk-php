@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType $AutomatedRelistingRule
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType $AutomatedSecondChanceOfferRule
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerAutoRelistType $AutomatedRelistingRule
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType $AutomatedSecondChanceOfferRule
  */
-class SetSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetSellingManagerItemAutomationRuleRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class SetSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Tradin
             'elementName' => 'ItemID'
         ],
         'AutomatedRelistingRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AutomatedRelistingRule'
         ],
         'AutomatedSecondChanceOfferRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AutomatedSecondChanceOfferRule'

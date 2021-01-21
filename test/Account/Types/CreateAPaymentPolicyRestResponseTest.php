@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace lliyplliuk\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse;
+use lliyplliuk\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse;
 
 class CreateAPaymentPolicyRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateAPaymentPolicyRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse', $this->obj);
     }
 
     public function testExtendsSetPaymentPolicyResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\SetPaymentPolicyResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Account\Types\SetPaymentPolicyResponse', $this->obj);
     }
 }

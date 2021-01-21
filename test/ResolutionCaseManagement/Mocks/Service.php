@@ -1,9 +1,9 @@
 <?php
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Mocks;
+namespace lliyplliuk\eBaySDK\Test\ResolutionCaseManagement\Mocks;
 
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
+use lliyplliuk\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementBaseService
+class Service extends \lliyplliuk\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementBaseService
 {
     public function __construct(array $config)
     {
@@ -15,7 +15,7 @@ class Service extends \DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionC
         return $this->callOperationAsync(
             'testOperation',
             new ComplexClass(),
-            '\DTS\eBaySDK\Test\Mocks\ComplexClass'
+            '\lliyplliuk\eBaySDK\Test\Mocks\ComplexClass'
         )->wait();
     }
 }

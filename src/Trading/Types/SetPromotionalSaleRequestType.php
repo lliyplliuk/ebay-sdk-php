@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType $Action
- * @property \DTS\eBaySDK\Trading\Types\PromotionalSaleType $PromotionalSaleDetails
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\ModifyActionCodeType $Action
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PromotionalSaleType $PromotionalSaleDetails
  */
-class SetPromotionalSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetPromotionalSaleRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class SetPromotionalSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'elementName' => 'Action'
         ],
         'PromotionalSaleDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PromotionalSaleType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PromotionalSaleType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleDetails'

@@ -1,12 +1,12 @@
 <?php
-namespace DTS\eBaySDK\Types;
+namespace lliyplliuk\eBaySDK\Types;
 
 /**
  * Base class for objects that correspond to xs:string types in the XML.
  *
  * @property string $value
  */
-class StringType extends \DTS\eBaySDK\Types\BaseType
+class StringType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

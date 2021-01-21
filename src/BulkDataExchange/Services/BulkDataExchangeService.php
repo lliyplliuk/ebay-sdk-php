@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Services;
+namespace lliyplliuk\eBaySDK\BulkDataExchange\Services;
 
-class BulkDataExchangeService extends \DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeBaseService
+class BulkDataExchangeService extends \lliyplliuk\eBaySDK\BulkDataExchange\Services\BulkDataExchangeBaseService
 {
     const API_VERSION = '1.5.0';
 
@@ -23,310 +23,310 @@ class BulkDataExchangeService extends \DTS\eBaySDK\BulkDataExchange\Services\Bul
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\CreateUploadJobRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\CreateUploadJobResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateUploadJobRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateUploadJobResponse
      */
-    public function createUploadJob(\DTS\eBaySDK\BulkDataExchange\Types\CreateUploadJobRequest $request)
+    public function createUploadJob(\lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateUploadJobRequest $request)
     {
         return $this->createUploadJobAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\CreateUploadJobRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateUploadJobRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createUploadJobAsync(\DTS\eBaySDK\BulkDataExchange\Types\CreateUploadJobRequest $request)
+    public function createUploadJobAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateUploadJobRequest $request)
     {
         return $this->callOperationAsync(
             'createUploadJob',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\CreateUploadJobResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateUploadJobResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\StartUploadJobResponse
      */
-    public function startUploadJob(\DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest $request)
+    public function startUploadJob(\lliyplliuk\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest $request)
     {
         return $this->startUploadJobAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function startUploadJobAsync(\DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest $request)
+    public function startUploadJobAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest $request)
     {
         return $this->callOperationAsync(
             'startUploadJob',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\StartUploadJobResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\AbortJobRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\AbortJobResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortJobRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortJobResponse
      */
-    public function abortJob(\DTS\eBaySDK\BulkDataExchange\Types\AbortJobRequest $request)
+    public function abortJob(\lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortJobRequest $request)
     {
         return $this->abortJobAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\AbortJobRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortJobRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function abortJobAsync(\DTS\eBaySDK\BulkDataExchange\Types\AbortJobRequest $request)
+    public function abortJobAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortJobRequest $request)
     {
         return $this->callOperationAsync(
             'abortJob',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\AbortJobResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortJobResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetJobsRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\GetJobsResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobsRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobsResponse
      */
-    public function getJobs(\DTS\eBaySDK\BulkDataExchange\Types\GetJobsRequest $request)
+    public function getJobs(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobsRequest $request)
     {
         return $this->getJobsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetJobsRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getJobsAsync(\DTS\eBaySDK\BulkDataExchange\Types\GetJobsRequest $request)
+    public function getJobsAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobsRequest $request)
     {
         return $this->callOperationAsync(
             'getJobs',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\GetJobsResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobsResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobStatusResponse
      */
-    public function getJobStatus(\DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest $request)
+    public function getJobStatus(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest $request)
     {
         return $this->getJobStatusAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getJobStatusAsync(\DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest $request)
+    public function getJobStatusAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobStatusRequest $request)
     {
         return $this->callOperationAsync(
             'getJobStatus',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetJobStatusResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\StartDownloadJobResponse
      */
-    public function startDownloadJob(\DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest $request)
+    public function startDownloadJob(\lliyplliuk\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest $request)
     {
         return $this->startDownloadJobAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function startDownloadJobAsync(\DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest $request)
+    public function startDownloadJobAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\StartDownloadJobRequest $request)
     {
         return $this->callOperationAsync(
             'startDownloadJob',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\StartDownloadJobResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\StartDownloadJobResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\CreateRecurringJobRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\CreateRecurringJobResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateRecurringJobRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateRecurringJobResponse
      */
-    public function createRecurringJob(\DTS\eBaySDK\BulkDataExchange\Types\CreateRecurringJobRequest $request)
+    public function createRecurringJob(\lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateRecurringJobRequest $request)
     {
         return $this->createRecurringJobAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\CreateRecurringJobRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateRecurringJobRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createRecurringJobAsync(\DTS\eBaySDK\BulkDataExchange\Types\CreateRecurringJobRequest $request)
+    public function createRecurringJobAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateRecurringJobRequest $request)
     {
         return $this->callOperationAsync(
             'createRecurringJob',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\CreateRecurringJobResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\CreateRecurringJobResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobResponse
      */
-    public function deleteRecurringJob(\DTS\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest $request)
+    public function deleteRecurringJob(\lliyplliuk\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest $request)
     {
         return $this->deleteRecurringJobAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteRecurringJobAsync(\DTS\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest $request)
+    public function deleteRecurringJobAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobRequest $request)
     {
         return $this->callOperationAsync(
             'deleteRecurringJob',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\DeleteRecurringJobResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobsResponse
      */
-    public function getRecurringJobs(\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest $request)
+    public function getRecurringJobs(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest $request)
     {
         return $this->getRecurringJobsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getRecurringJobsAsync(\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest $request)
+    public function getRecurringJobsAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest $request)
     {
         return $this->callOperationAsync(
             'getRecurringJobs',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobsResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusResponse
      */
-    public function getRecurringJobExecutionStatus(\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusRequest $request)
+    public function getRecurringJobExecutionStatus(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusRequest $request)
     {
         return $this->getRecurringJobExecutionStatusAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getRecurringJobExecutionStatusAsync(\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusRequest $request)
+    public function getRecurringJobExecutionStatusAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusRequest $request)
     {
         return $this->callOperationAsync(
             'getRecurringJobExecutionStatus',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionStatusResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryResponse
      */
-    public function getRecurringJobExecutionHistory(\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryRequest $request)
+    public function getRecurringJobExecutionHistory(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryRequest $request)
     {
         return $this->getRecurringJobExecutionHistoryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getRecurringJobExecutionHistoryAsync(\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryRequest $request)
+    public function getRecurringJobExecutionHistoryAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryRequest $request)
     {
         return $this->callOperationAsync(
             'getRecurringJobExecutionHistory',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobExecutionHistoryResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobResponse
      */
-    public function activateRecurringJob(\DTS\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobRequest $request)
+    public function activateRecurringJob(\lliyplliuk\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobRequest $request)
     {
         return $this->activateRecurringJobAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function activateRecurringJobAsync(\DTS\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobRequest $request)
+    public function activateRecurringJobAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobRequest $request)
     {
         return $this->callOperationAsync(
             'activateRecurringJob',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\ActivateRecurringJobResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobResponse
      */
-    public function suspendRecurringJob(\DTS\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobRequest $request)
+    public function suspendRecurringJob(\lliyplliuk\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobRequest $request)
     {
         return $this->suspendRecurringJobAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function suspendRecurringJobAsync(\DTS\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobRequest $request)
+    public function suspendRecurringJobAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobRequest $request)
     {
         return $this->callOperationAsync(
             'suspendRecurringJob',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\SuspendRecurringJobResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionRequest $request
-     * @return \DTS\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionResponse
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionRequest $request
+     * @return \lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionResponse
      */
-    public function abortRecurringJobExecution(\DTS\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionRequest $request)
+    public function abortRecurringJobExecution(\lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionRequest $request)
     {
         return $this->abortRecurringJobExecutionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionRequest $request
+     * @param \lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function abortRecurringJobExecutionAsync(\DTS\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionRequest $request)
+    public function abortRecurringJobExecutionAsync(\lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionRequest $request)
     {
         return $this->callOperationAsync(
             'abortRecurringJobExecution',
             $request,
-            '\DTS\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionResponse'
+            '\lliyplliuk\eBaySDK\BulkDataExchange\Types\AbortRecurringJobExecutionResponse'
         );
     }
 }

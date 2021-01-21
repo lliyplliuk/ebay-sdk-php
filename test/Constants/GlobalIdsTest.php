@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Constants\Test;
+namespace lliyplliuk\eBaySDK\Constants\Test;
 
-use DTS\eBaySDK\Constants\GlobalIds as GlobalIds;
+use lliyplliuk\eBaySDK\Constants\GlobalIds as GlobalIds;
 
 class GlobalIdsTest extends \PHPUnit_Framework_TestCase
 {

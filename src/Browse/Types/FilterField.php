@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace lliyplliuk\eBaySDK\Browse\Types;
 
 /**
  *
  * @property string $field
  * @property boolean $negated
- * @property \DTS\eBaySDK\Browse\Types\RangeValue $range
+ * @property \lliyplliuk\eBaySDK\Browse\Types\RangeValue $range
  * @property string[] $set
  * @property string $value
  */
-class FilterField extends \DTS\eBaySDK\Types\BaseType
+class FilterField extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,7 +37,7 @@ class FilterField extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'negated'
         ],
         'range' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\RangeValue',
+            'type' => 'lliyplliuk\eBaySDK\Browse\Types\RangeValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'range'

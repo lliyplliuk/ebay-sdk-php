@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\Analytics\Services;
+namespace lliyplliuk\eBaySDK\Test\Analytics\Services;
 
-use DTS\eBaySDK\Analytics\Services\AnalyticsBaseService;
-use DTS\eBaySDK\Analytics\Services\AnalyticsService;
-use DTS\eBaySDK\Test\Analytics\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
+use lliyplliuk\eBaySDK\Analytics\Services\AnalyticsBaseService;
+use lliyplliuk\eBaySDK\Analytics\Services\AnalyticsService;
+use lliyplliuk\eBaySDK\Test\Analytics\Mocks\Service;
+use lliyplliuk\eBaySDK\Test\Mocks\HttpRestHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

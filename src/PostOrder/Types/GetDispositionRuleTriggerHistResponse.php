@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType[] $historyDetail
- * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType[] $historyDetail
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
  */
-class GetDispositionRuleTriggerHistResponse extends \DTS\eBaySDK\Types\BaseType
+class GetDispositionRuleTriggerHistResponse extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'historyDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'historyDetail'
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'

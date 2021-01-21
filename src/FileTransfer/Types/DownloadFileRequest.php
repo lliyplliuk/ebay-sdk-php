@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\FileTransfer\Types;
+namespace lliyplliuk\eBaySDK\FileTransfer\Types;
 
 /**
  *
  * @property string $taskReferenceId
  * @property string $fileReferenceId
  */
-class DownloadFileRequest extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceRequest
+class DownloadFileRequest extends \lliyplliuk\eBaySDK\FileTransfer\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

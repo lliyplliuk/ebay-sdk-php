@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Error[] $error
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\Error[] $error
  */
-class ErrorMessage extends \DTS\eBaySDK\Types\BaseType
+class ErrorMessage extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'error' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Error',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\Error',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'error'

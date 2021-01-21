@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Browse\Types;
+namespace lliyplliuk\eBaySDK\Test\Browse\Types;
 
-use DTS\eBaySDK\Browse\Types\Refinement;
+use lliyplliuk\eBaySDK\Browse\Types\Refinement;
 
 class RefinementTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class RefinementTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\Refinement', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Browse\Types\Refinement', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

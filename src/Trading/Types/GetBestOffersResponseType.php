@@ -8,36 +8,36 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
- * @property \DTS\eBaySDK\Trading\Types\ItemBestOffersArrayType $ItemBestOffersArray
+ * @property \lliyplliuk\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
+ * @property \lliyplliuk\eBaySDK\Trading\Types\ItemType $Item
+ * @property \lliyplliuk\eBaySDK\Trading\Types\ItemBestOffersArrayType $ItemBestOffersArray
  * @property integer $PageNumber
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
-class GetBestOffersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetBestOffersResponseType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BestOfferArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\BestOfferArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferArray'
         ],
         'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'
         ],
         'ItemBestOffersArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemBestOffersArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\ItemBestOffersArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemBestOffersArray'
@@ -49,7 +49,7 @@ class GetBestOffersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'elementName' => 'PageNumber'
         ],
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

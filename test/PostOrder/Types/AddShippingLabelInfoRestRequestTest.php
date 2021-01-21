@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest;
+use lliyplliuk\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest;
 
 class AddShippingLabelInfoRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AddShippingLabelInfoRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\AddShippingLabelInfoRestRequest', $this->obj);
     }
 
     public function testExtendsProvideLabelRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvideLabelRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\ProvideLabelRequest', $this->obj);
     }
 }

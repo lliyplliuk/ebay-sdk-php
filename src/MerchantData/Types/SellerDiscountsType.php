@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OriginalItemPrice
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OriginalItemShippingCost
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\AmountType $OriginalItemPrice
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\AmountType $OriginalItemShippingCost
  * @property string $OriginalShippingService
- * @property \DTS\eBaySDK\MerchantData\Types\SellerDiscountType[] $SellerDiscount
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\SellerDiscountType[] $SellerDiscount
  */
-class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
+class SellerDiscountsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalItemPrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalItemPrice'
         ],
         'OriginalItemShippingCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalItemShippingCost'
@@ -42,7 +42,7 @@ class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'OriginalShippingService'
         ],
         'SellerDiscount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellerDiscountType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\SellerDiscountType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SellerDiscount'

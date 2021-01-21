@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Feed\Types;
+namespace lliyplliuk\eBaySDK\Test\Feed\Types;
 
-use DTS\eBaySDK\Feed\Types\GetItemFeedRestResponse;
+use lliyplliuk\eBaySDK\Feed\Types\GetItemFeedRestResponse;
 
 class GetItemFeedRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetItemFeedRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feed\Types\GetItemFeedRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Feed\Types\GetItemFeedRestResponse', $this->obj);
     }
 
     public function testExtendsItemFeedResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feed\Types\ItemFeedResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Feed\Types\ItemFeedResponse', $this->obj);
     }
 }

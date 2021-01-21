@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test;
+namespace lliyplliuk\eBaySDK\Test;
 
-use DTS\eBaySDK\Sdk;
+use lliyplliuk\eBaySDK\Sdk;
 
 class SdkTest extends \PHPUnit_Framework_TestCase
 {
@@ -67,121 +67,121 @@ class SdkTest extends \PHPUnit_Framework_TestCase
 
     public function testCanCreateOAuth()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\OAuth\Services\OAuthService', $this->sdk->createOAuth());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\OAuth\Services\OAuthService', $this->sdk->createOAuth());
     }
 
     public function testCanCreateAccount()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Services\AccountService', $this->sdk->createAccount());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Account\Services\AccountService', $this->sdk->createAccount());
     }
 
     public function testCanCreateAnalytics()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Services\AnalyticsService', $this->sdk->createAnalytics());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Analytics\Services\AnalyticsService', $this->sdk->createAnalytics());
     }
 
     public function testCanCreateBrowse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Services\BrowseService', $this->sdk->createBrowse());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Browse\Services\BrowseService', $this->sdk->createBrowse());
     }
 
     public function testCanCreateBulkDataExchange()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService', $this->sdk->createBulkDataExchange());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService', $this->sdk->createBulkDataExchange());
     }
 
     public function testCanCreateBusinessPoliciesManagement()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService', $this->sdk->createBusinessPoliciesManagement());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService', $this->sdk->createBusinessPoliciesManagement());
     }
 
     public function testCanCreateFeedback()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Services\FeedbackService', $this->sdk->createFeedback());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Feedback\Services\FeedbackService', $this->sdk->createFeedback());
     }
 
     public function testCanCreateFileTransfer()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Services\FileTransferService', $this->sdk->createFileTransfer());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\FileTransfer\Services\FileTransferService', $this->sdk->createFileTransfer());
     }
 
     public function testCanCreateFinding()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Services\FindingService', $this->sdk->createFinding());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Finding\Services\FindingService', $this->sdk->createFinding());
     }
 
     public function testCanCreateFulfillment()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Services\FulfillmentService', $this->sdk->createFulfillment());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Fulfillment\Services\FulfillmentService', $this->sdk->createFulfillment());
     }
 
     public function testCanCreateHalfFinding()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Services\HalfFindingService', $this->sdk->createHalfFinding());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\HalfFinding\Services\HalfFindingService', $this->sdk->createHalfFinding());
     }
 
     public function testCanCreateInventory()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Services\InventoryService', $this->sdk->createInventory());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Inventory\Services\InventoryService', $this->sdk->createInventory());
     }
 
     public function testCanCreateMarketing()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Services\MarketingService', $this->sdk->createMarketing());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Marketing\Services\MarketingService', $this->sdk->createMarketing());
     }
 
     public function testCanCreateMetadata()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Services\MetadataService', $this->sdk->createMetadata());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Metadata\Services\MetadataService', $this->sdk->createMetadata());
     }
 
     public function testCanCreateMerchandising()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Services\MerchandisingService', $this->sdk->createMerchandising());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Merchandising\Services\MerchandisingService', $this->sdk->createMerchandising());
     }
 
     public function testCanCreateOrder()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Order\Services\OrderService', $this->sdk->createOrder());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Order\Services\OrderService', $this->sdk->createOrder());
     }
 
     public function testCanCreatePostOrder()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Services\PostOrderService', $this->sdk->createPostOrder());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Services\PostOrderService', $this->sdk->createPostOrder());
     }
 
     public function testCanCreateProduct()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Services\ProductService', $this->sdk->createProduct());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Product\Services\ProductService', $this->sdk->createProduct());
     }
 
     public function testCanCreateProductMetadata()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService', $this->sdk->createProductMetadata());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ProductMetadata\Services\ProductMetadataService', $this->sdk->createProductMetadata());
     }
 
     public function testCanCreateRelatedItemsManagement()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementService', $this->sdk->createRelatedItemsManagement());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementService', $this->sdk->createRelatedItemsManagement());
     }
 
     public function testCanCreateResolutionCaseManagement()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService', $this->sdk->createResolutionCaseManagement());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService', $this->sdk->createResolutionCaseManagement());
     }
 
     public function testCanCreateReturnManagement()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Services\ReturnManagementService', $this->sdk->createReturnManagement());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ReturnManagement\Services\ReturnManagementService', $this->sdk->createReturnManagement());
     }
 
     public function testCanCreateShopping()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Services\ShoppingService', $this->sdk->createShopping());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Shopping\Services\ShoppingService', $this->sdk->createShopping());
     }
 
     public function testCanCreateTrading()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Services\TradingService', $this->sdk->createTrading());
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Services\TradingService', $this->sdk->createTrading());
     }
 }

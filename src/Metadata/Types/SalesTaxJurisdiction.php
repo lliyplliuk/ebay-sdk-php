@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Metadata\Types;
+namespace lliyplliuk\eBaySDK\Metadata\Types;
 
 /**
  *
  * @property string $salesTaxJurisdictionId
  */
-class SalesTaxJurisdiction extends \DTS\eBaySDK\Types\BaseType
+class SalesTaxJurisdiction extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

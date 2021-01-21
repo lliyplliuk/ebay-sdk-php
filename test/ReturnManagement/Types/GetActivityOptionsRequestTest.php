@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ReturnManagement\Types;
+namespace lliyplliuk\eBaySDK\Test\ReturnManagement\Types;
 
-use DTS\eBaySDK\ReturnManagement\Types\GetActivityOptionsRequest;
+use lliyplliuk\eBaySDK\ReturnManagement\Types\GetActivityOptionsRequest;
 
 class GetActivityOptionsRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetActivityOptionsRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\GetActivityOptionsRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ReturnManagement\Types\GetActivityOptionsRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ReturnManagement\Types\BaseRequest', $this->obj);
     }
 }

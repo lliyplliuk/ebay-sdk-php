@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\DimensionMetadata[] $dimensionMetadata
+ * @property \lliyplliuk\eBaySDK\Marketing\Types\DimensionMetadata[] $dimensionMetadata
  * @property integer $maxNumberOfDimensionsToRequest
  * @property integer $maxNumberOfMetricsToRequest
- * @property \DTS\eBaySDK\Marketing\Types\MetricMetadata[] $metricMetadata
- * @property \DTS\eBaySDK\Marketing\Enums\ReportTypeEnum $reportType
+ * @property \lliyplliuk\eBaySDK\Marketing\Types\MetricMetadata[] $metricMetadata
+ * @property \lliyplliuk\eBaySDK\Marketing\Enums\ReportTypeEnum $reportType
  */
-class ReportMetadata extends \DTS\eBaySDK\Types\BaseType
+class ReportMetadata extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'dimensionMetadata' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DimensionMetadata',
+            'type' => 'lliyplliuk\eBaySDK\Marketing\Types\DimensionMetadata',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'dimensionMetadata'
@@ -43,7 +43,7 @@ class ReportMetadata extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'maxNumberOfMetricsToRequest'
         ],
         'metricMetadata' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\MetricMetadata',
+            'type' => 'lliyplliuk\eBaySDK\Marketing\Types\MetricMetadata',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'metricMetadata'

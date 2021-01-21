@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace lliyplliuk\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\RefundOptionsCodeType;
+use lliyplliuk\eBaySDK\Trading\Enums\RefundOptionsCodeType;
 
 class RefundOptionsCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class RefundOptionsCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\RefundOptionsCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Enums\RefundOptionsCodeType', $this->obj);
     }
 }

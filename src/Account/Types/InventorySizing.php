@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace lliyplliuk\eBaySDK\Account\Types;
 
 /**
  *
  * @property integer $currentAvailableQuantity
- * @property \DTS\eBaySDK\Account\Types\Amount $currentInventoryValue
- * @property \DTS\eBaySDK\Account\Types\InventorySnapshot $inventorySnapshots
+ * @property \lliyplliuk\eBaySDK\Account\Types\Amount $currentInventoryValue
+ * @property \lliyplliuk\eBaySDK\Account\Types\InventorySnapshot $inventorySnapshots
  * @property string $primarySalesCategory
  */
-class InventorySizing extends \DTS\eBaySDK\Types\BaseType
+class InventorySizing extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,13 +30,13 @@ class InventorySizing extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'currentAvailableQuantity'
         ],
         'currentInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'currentInventoryValue'
         ],
         'inventorySnapshots' => [
-            'type' => 'DTS\eBaySDK\Account\Types\InventorySnapshot',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\InventorySnapshot',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inventorySnapshots'

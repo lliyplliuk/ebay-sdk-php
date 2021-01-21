@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Browse\Types;
+namespace lliyplliuk\eBaySDK\Test\Browse\Types;
 
-use DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestResponse;
+use lliyplliuk\eBaySDK\Browse\Types\GetItemsByItemGroupRestResponse;
 
 class GetItemsByItemGroupRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetItemsByItemGroupRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\GetItemsByItemGroupRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Browse\Types\GetItemsByItemGroupRestResponse', $this->obj);
     }
 
     public function testExtendsItems()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\Items', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Browse\Types\Items', $this->obj);
     }
 }

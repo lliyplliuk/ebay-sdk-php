@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Enums;
+namespace lliyplliuk\eBaySDK\Test\Inventory\Enums;
 
-use DTS\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum;
+use lliyplliuk\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum;
 
 class ShippingServiceTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ShippingServiceTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum', $this->obj);
     }
 }

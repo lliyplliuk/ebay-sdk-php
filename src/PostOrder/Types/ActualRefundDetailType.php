@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RefundDetailType $actualRefund
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnRefundInitiatorEnum $refundInitiationType
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $refundIssuedDate
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\RefundDetailType $actualRefund
+ * @property \lliyplliuk\eBaySDK\PostOrder\Enums\ReturnRefundInitiatorEnum $refundInitiationType
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\DateTime $refundIssuedDate
  * @property string $refundStatus
  */
-class ActualRefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class ActualRefundDetailType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'actualRefund' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundDetailType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\RefundDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actualRefund'
@@ -36,7 +36,7 @@ class ActualRefundDetailType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'refundInitiationType'
         ],
         'refundIssuedDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundIssuedDate'

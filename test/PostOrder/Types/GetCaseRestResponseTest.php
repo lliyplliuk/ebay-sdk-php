@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\GetCaseRestResponse;
+use lliyplliuk\eBaySDK\PostOrder\Types\GetCaseRestResponse;
 
 class GetCaseRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetCaseRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetCaseRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\GetCaseRestResponse', $this->obj);
     }
 
     public function testExtendsCaseDetailsResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CaseDetailsResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\CaseDetailsResponse', $this->obj);
     }
 }

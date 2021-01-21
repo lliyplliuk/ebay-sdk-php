@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Taxonomy\Types;
+namespace lliyplliuk\eBaySDK\Taxonomy\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\Category $category
- * @property \DTS\eBaySDK\Taxonomy\Types\AncestorReference[] $categoryTreeNodeAncestors
+ * @property \lliyplliuk\eBaySDK\Taxonomy\Types\Category $category
+ * @property \lliyplliuk\eBaySDK\Taxonomy\Types\AncestorReference[] $categoryTreeNodeAncestors
  * @property integer $categoryTreeNodeLevel
  * @property string $relevancy
  */
-class CategorySuggestion extends \DTS\eBaySDK\Types\BaseType
+class CategorySuggestion extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'category' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\Category',
+            'type' => 'lliyplliuk\eBaySDK\Taxonomy\Types\Category',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'category'
         ],
         'categoryTreeNodeAncestors' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\AncestorReference',
+            'type' => 'lliyplliuk\eBaySDK\Taxonomy\Types\AncestorReference',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryTreeNodeAncestors'

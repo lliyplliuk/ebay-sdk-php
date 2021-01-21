@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\GetStoreCategoriesRestResponse;
+use lliyplliuk\eBaySDK\PostOrder\Types\GetStoreCategoriesRestResponse;
 
 class GetStoreCategoriesRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetStoreCategoriesRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetStoreCategoriesRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\GetStoreCategoriesRestResponse', $this->obj);
     }
 
     public function testExtendsGetStoreCategoryResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetStoreCategoryResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\GetStoreCategoryResponse', $this->obj);
     }
 }

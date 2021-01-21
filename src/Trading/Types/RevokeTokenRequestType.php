@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property boolean $UnsubscribeNotification
  */
-class RevokeTokenRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class RevokeTokenRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

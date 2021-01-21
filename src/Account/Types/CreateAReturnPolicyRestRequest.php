@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace lliyplliuk\eBaySDK\Account\Types;
 
 /**
  *
  */
-class CreateAReturnPolicyRestRequest extends \DTS\eBaySDK\Account\Types\ReturnPolicyRequest
+class CreateAReturnPolicyRestRequest extends \lliyplliuk\eBaySDK\Account\Types\ReturnPolicyRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

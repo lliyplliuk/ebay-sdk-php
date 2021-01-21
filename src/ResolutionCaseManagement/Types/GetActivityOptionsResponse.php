@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityOptionListType $activityOptions
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\ActivityOptionListType $activityOptions
  */
-class GetActivityOptionsResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class GetActivityOptionsResponse extends \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'activityOptions' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityOptionListType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\ActivityOptionListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'activityOptions'

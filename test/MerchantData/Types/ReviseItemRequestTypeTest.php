@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\ReviseItemRequestType;
+use lliyplliuk\eBaySDK\MerchantData\Types\ReviseItemRequestType;
 
 class ReviseItemRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ReviseItemRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ReviseItemRequestType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Types\ReviseItemRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Types\AbstractRequestType', $this->obj);
     }
 }

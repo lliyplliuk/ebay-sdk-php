@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\HalfFinding\Types;
+namespace lliyplliuk\eBaySDK\Test\HalfFinding\Types;
 
-use DTS\eBaySDK\HalfFinding\Types\HalfCatalogProductType;
+use lliyplliuk\eBaySDK\HalfFinding\Types\HalfCatalogProductType;
 
 class HalfCatalogProductTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class HalfCatalogProductTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\HalfCatalogProductType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\HalfFinding\Types\HalfCatalogProductType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

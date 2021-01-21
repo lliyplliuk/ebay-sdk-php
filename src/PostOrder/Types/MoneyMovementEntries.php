@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\MoneyMovementEntry[] $moneyMovementEntryList
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\MoneyMovementEntry[] $moneyMovementEntryList
  */
-class MoneyMovementEntries extends \DTS\eBaySDK\Types\BaseType
+class MoneyMovementEntries extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'moneyMovementEntryList' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementEntry',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\MoneyMovementEntry',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'moneyMovementEntryList'

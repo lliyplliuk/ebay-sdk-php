@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Enums;
+namespace lliyplliuk\eBaySDK\Test\Account\Enums;
 
-use DTS\eBaySDK\Account\Enums\RefundMethodEnum;
+use lliyplliuk\eBaySDK\Account\Enums\RefundMethodEnum;
 
 class RefundMethodEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class RefundMethodEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\RefundMethodEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Account\Enums\RefundMethodEnum', $this->obj);
     }
 }

@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\TaxTypeCodeType $Imposition
- * @property \DTS\eBaySDK\MerchantData\Enums\TaxDescriptionCodeType $TaxDescription
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxOnSubtotalAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxOnShippingAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxOnHandlingAmount
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\TaxTypeCodeType $Imposition
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\TaxDescriptionCodeType $TaxDescription
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\AmountType $TaxAmount
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\AmountType $TaxOnSubtotalAmount
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\AmountType $TaxOnShippingAmount
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\AmountType $TaxOnHandlingAmount
  * @property string $TaxCode
  */
-class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
+class TaxDetailsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,25 +39,25 @@ class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'TaxDescription'
         ],
         'TaxAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxAmount'
         ],
         'TaxOnSubtotalAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxOnSubtotalAmount'
         ],
         'TaxOnShippingAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxOnShippingAmount'
         ],
         'TaxOnHandlingAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxOnHandlingAmount'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Analytics\Services;
+namespace lliyplliuk\eBaySDK\Analytics\Services;
 
-class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseService
+class AnalyticsService extends \lliyplliuk\eBaySDK\Analytics\Services\AnalyticsBaseService
 {
     const API_VERSION = 'v1';
 
@@ -21,7 +21,7 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
         'GetASpecificSellerProfile' => [
             'method' => 'GET',
             'resource' => 'seller_standards_profile/{program}/{cycle}',
-            'responseClass' => '\DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestResponse',
+            'responseClass' => '\lliyplliuk\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestResponse',
             'params' => [
                 'cycle' => [
                     'valid' => ['string'],
@@ -36,14 +36,14 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
         'GetAllSellerProfiles' => [
             'method' => 'GET',
             'resource' => 'seller_standards_profile',
-            'responseClass' => '\DTS\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse',
+            'responseClass' => '\lliyplliuk\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse',
             'params' => [
             ]
         ],
         'GetTrafficReport' => [
             'method' => 'GET',
             'resource' => 'traffic_report',
-            'responseClass' => '\DTS\eBaySDK\Analytics\Types\GetTrafficReportRestResponse',
+            'responseClass' => '\lliyplliuk\eBaySDK\Analytics\Types\GetTrafficReportRestResponse',
             'params' => [
                 'dimension' => [
                     'valid' => ['string'],
@@ -69,25 +69,25 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request
-     * @return \DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestResponse
+     * @param \lliyplliuk\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request
+     * @return \lliyplliuk\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestResponse
      */
-    public function getASpecificSellerProfile(\DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request)
+    public function getASpecificSellerProfile(\lliyplliuk\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request)
     {
         return $this->getASpecificSellerProfileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request
+     * @param \lliyplliuk\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getASpecificSellerProfileAsync(\DTS\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request)
+    public function getASpecificSellerProfileAsync(\lliyplliuk\eBaySDK\Analytics\Types\GetASpecificSellerProfileRestRequest $request)
     {
         return $this->callOperationAsync('GetASpecificSellerProfile', $request);
     }
 
     /**
-     * @return \DTS\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse
+     * @return \lliyplliuk\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse
      */
     public function getAllSellerProfiles()
     {
@@ -103,19 +103,19 @@ class AnalyticsService extends \DTS\eBaySDK\Analytics\Services\AnalyticsBaseServ
     }
 
     /**
-     * @param \DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request
-     * @return \DTS\eBaySDK\Analytics\Types\GetTrafficReportRestResponse
+     * @param \lliyplliuk\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request
+     * @return \lliyplliuk\eBaySDK\Analytics\Types\GetTrafficReportRestResponse
      */
-    public function getTrafficReport(\DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request)
+    public function getTrafficReport(\lliyplliuk\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request)
     {
         return $this->getTrafficReportAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request
+     * @param \lliyplliuk\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getTrafficReportAsync(\DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request)
+    public function getTrafficReportAsync(\lliyplliuk\eBaySDK\Analytics\Types\GetTrafficReportRestRequest $request)
     {
         return $this->callOperationAsync('GetTrafficReport', $request);
     }

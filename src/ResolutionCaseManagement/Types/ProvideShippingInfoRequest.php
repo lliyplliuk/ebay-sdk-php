@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
  * @property string $carrierUsed
  * @property \DateTime $shippedDate
  * @property string $comments
  */
-class ProvideShippingInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class ProvideShippingInfoRequest extends \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseId'

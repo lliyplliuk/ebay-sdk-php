@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace lliyplliuk\eBaySDK\Catalog\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\CorrectionAspectValues $aspectValues
+ * @property \lliyplliuk\eBaySDK\Catalog\Types\CorrectionAspectValues $aspectValues
  * @property string $correctionCode
- * @property \DTS\eBaySDK\Catalog\Types\CorrectionProductAttribute $productAttribute
+ * @property \lliyplliuk\eBaySDK\Catalog\Types\CorrectionProductAttribute $productAttribute
  * @property string $reason
  */
-class Correction extends \DTS\eBaySDK\Types\BaseType
+class Correction extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspectValues' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\CorrectionAspectValues',
+            'type' => 'lliyplliuk\eBaySDK\Catalog\Types\CorrectionAspectValues',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'aspectValues'
@@ -36,7 +36,7 @@ class Correction extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'correctionCode'
         ],
         'productAttribute' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\CorrectionProductAttribute',
+            'type' => 'lliyplliuk\eBaySDK\Catalog\Types\CorrectionProductAttribute',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productAttribute'

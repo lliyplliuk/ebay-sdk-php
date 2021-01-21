@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest;
+use lliyplliuk\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest;
 
 class MarkReturnReceivedRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class MarkReturnReceivedRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\MarkReturnReceivedRestRequest', $this->obj);
     }
 
     public function testExtendsMarkAsReceivedRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\MarkAsReceivedRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\MarkAsReceivedRequest', $this->obj);
     }
 }

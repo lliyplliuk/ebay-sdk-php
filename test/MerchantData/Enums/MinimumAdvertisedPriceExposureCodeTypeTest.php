@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace lliyplliuk\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType;
+use lliyplliuk\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType;
 
 class MinimumAdvertisedPriceExposureCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class MinimumAdvertisedPriceExposureCodeTypeTest extends \PHPUnit_Framework_Test
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType', $this->obj);
     }
 }

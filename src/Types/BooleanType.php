@@ -1,12 +1,12 @@
 <?php
-namespace DTS\eBaySDK\Types;
+namespace lliyplliuk\eBaySDK\Types;
 
 /**
  * Base class for objects that correspond to boolean types in the XML.
  *
  * @property boolean $value
  */
-class BooleanType extends \DTS\eBaySDK\Types\BaseType
+class BooleanType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

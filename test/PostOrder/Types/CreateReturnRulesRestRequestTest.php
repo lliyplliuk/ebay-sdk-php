@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest;
+use lliyplliuk\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest;
 
 class CreateReturnRulesRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateReturnRulesRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\CreateReturnRulesRestRequest', $this->obj);
     }
 
     public function testExtendsCreateDispositionRuleRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateDispositionRuleRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\CreateDispositionRuleRequest', $this->obj);
     }
 }

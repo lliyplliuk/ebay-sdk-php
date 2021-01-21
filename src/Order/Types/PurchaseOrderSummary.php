@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace lliyplliuk\eBaySDK\Order\Types;
 
 /**
  *
  * @property string $purchaseOrderHref
  * @property string $purchaseOrderId
- * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
- * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property \lliyplliuk\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
+ * @property \lliyplliuk\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
  */
-class PurchaseOrderSummary extends \DTS\eBaySDK\Types\BaseType
+class PurchaseOrderSummary extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class PurchaseOrderSummary extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'purchaseOrderPaymentStatus'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
+            'type' => 'lliyplliuk\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class ClassifiedAdCounterOfferEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
+class ClassifiedAdCounterOfferEnabledDefinitionType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

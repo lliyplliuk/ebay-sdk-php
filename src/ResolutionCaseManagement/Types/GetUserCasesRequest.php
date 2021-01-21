@@ -8,49 +8,49 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ItemFilterType $itemFilter
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType $creationDateRangeFilter
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseTypeFilterType $caseTypeFilter
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType $caseStatusFilter
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseSortOrderType $sortOrder
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\ItemFilterType $itemFilter
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType $creationDateRangeFilter
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseTypeFilterType $caseTypeFilter
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType $caseStatusFilter
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\PaginationInput $paginationInput
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\CaseSortOrderType $sortOrder
  */
-class GetUserCasesRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class GetUserCasesRequest extends \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemFilter' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemFilterType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\ItemFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemFilter'
         ],
         'creationDateRangeFilter' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\DateRangeFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDateRangeFilter'
         ],
         'caseTypeFilter' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseTypeFilterType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseTypeFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseTypeFilter'
         ],
         'caseStatusFilter' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseStatusFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseStatusFilter'
         ],
         'paginationInput' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationInput',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'

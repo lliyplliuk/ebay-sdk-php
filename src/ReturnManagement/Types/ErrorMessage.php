@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace lliyplliuk\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ErrorData[] $error
+ * @property \lliyplliuk\eBaySDK\ReturnManagement\Types\ErrorData[] $error
  */
-class ErrorMessage extends \DTS\eBaySDK\Types\BaseType
+class ErrorMessage extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'error' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ErrorData',
+            'type' => 'lliyplliuk\eBaySDK\ReturnManagement\Types\ErrorData',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'error'

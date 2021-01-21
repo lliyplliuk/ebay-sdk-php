@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace lliyplliuk\eBaySDK\Fulfillment\Types;
 
 /**
  *
@@ -17,9 +17,9 @@ namespace DTS\eBaySDK\Fulfillment\Types;
  * @property string $cancelReason
  * @property string $cancelRequestedDate
  * @property string $cancelRequestId
- * @property \DTS\eBaySDK\Fulfillment\Enums\CancelRequestStateEnum $cancelRequestState
+ * @property \lliyplliuk\eBaySDK\Fulfillment\Enums\CancelRequestStateEnum $cancelRequestState
  */
-class CancelRequest extends \DTS\eBaySDK\Types\BaseType
+class CancelRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

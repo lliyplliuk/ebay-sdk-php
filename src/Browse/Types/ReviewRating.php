@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace lliyplliuk\eBaySDK\Browse\Types;
 
 /**
  *
  * @property string $averageRating
- * @property \DTS\eBaySDK\Browse\Types\RatingHistogram[] $ratingHistograms
+ * @property \lliyplliuk\eBaySDK\Browse\Types\RatingHistogram[] $ratingHistograms
  * @property integer $reviewCount
  */
-class ReviewRating extends \DTS\eBaySDK\Types\BaseType
+class ReviewRating extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class ReviewRating extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'averageRating'
         ],
         'ratingHistograms' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\RatingHistogram',
+            'type' => 'lliyplliuk\eBaySDK\Browse\Types\RatingHistogram',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ratingHistograms'

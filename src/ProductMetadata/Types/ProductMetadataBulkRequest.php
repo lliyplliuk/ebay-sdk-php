@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace lliyplliuk\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest[] $productMetadataRequest
+ * @property \lliyplliuk\eBaySDK\ProductMetadata\Types\ProductMetadataRequest[] $productMetadataRequest
  */
-class ProductMetadataBulkRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseRequest
+class ProductMetadataBulkRequest extends \lliyplliuk\eBaySDK\ProductMetadata\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productMetadataRequest' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest',
+            'type' => 'lliyplliuk\eBaySDK\ProductMetadata\Types\ProductMetadataRequest',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productMetadataRequest'

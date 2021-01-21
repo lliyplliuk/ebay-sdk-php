@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace lliyplliuk\eBaySDK\Order\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\Amount $amount
+ * @property \lliyplliuk\eBaySDK\Order\Types\Amount $amount
  * @property string $label
  */
-class Adjustment extends \DTS\eBaySDK\Types\BaseType
+class Adjustment extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'

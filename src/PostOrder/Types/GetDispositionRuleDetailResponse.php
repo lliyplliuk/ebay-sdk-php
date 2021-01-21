@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleDetailType $ruleDetail
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\RuleDetailType $ruleDetail
  * @property integer $versionId
  */
-class GetDispositionRuleDetailResponse extends \DTS\eBaySDK\Types\BaseType
+class GetDispositionRuleDetailResponse extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ruleDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\RuleDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ruleDetail'

@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
  */
-class ConsolidateShippingProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
+class ConsolidateShippingProfilesRequest extends \lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

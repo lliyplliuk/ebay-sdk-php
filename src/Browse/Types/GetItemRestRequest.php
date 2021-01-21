@@ -8,13 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace lliyplliuk\eBaySDK\Browse\Types;
 
 /**
  *
  * @property string $item_id
+ * @property string $item_ids
  */
-class GetItemRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetItemRestRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -25,6 +26,12 @@ class GetItemRestRequest extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'item_id'
+        ],
+        'item_ids' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'item_ids'
         ]
     ];
 

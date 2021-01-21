@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $FolderID
  * @property string $FolderName
  */
-class MyMessagesFolderType extends \DTS\eBaySDK\Types\BaseType
+class MyMessagesFolderType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

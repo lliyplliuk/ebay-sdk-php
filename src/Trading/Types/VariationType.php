@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $SKU
- * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $StartPrice
  * @property integer $Quantity
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType[] $VariationSpecifics
+ * @property \lliyplliuk\eBaySDK\Trading\Types\NameValueListArrayType[] $VariationSpecifics
  * @property integer $UnitsAvailable
- * @property \DTS\eBaySDK\Trading\Types\AmountType $UnitCost
- * @property \DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $UnitCost
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
  * @property string $VariationTitle
  * @property string $VariationViewItemURL
  * @property boolean $Delete
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
  * @property integer $WatchCount
  * @property string $PrivateNotes
- * @property \DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
- * @property \DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType $VariationProductListingDetails
+ * @property \lliyplliuk\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property \lliyplliuk\eBaySDK\Trading\Types\VariationProductListingDetailsType $VariationProductListingDetails
  */
-class VariationType extends \DTS\eBaySDK\Types\BaseType
+class VariationType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -41,7 +41,7 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SKU'
         ],
         'StartPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'
@@ -53,7 +53,7 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Quantity'
         ],
         'VariationSpecifics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'
@@ -65,13 +65,13 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'UnitsAvailable'
         ],
         'UnitCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnitCost'
         ],
         'SellingStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingStatus'
@@ -95,7 +95,7 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Delete'
         ],
         'SellingManagerProductInventoryStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductInventoryStatus'
@@ -113,13 +113,13 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'PrivateNotes'
         ],
         'DiscountPriceInfo' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DiscountPriceInfoType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\DiscountPriceInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DiscountPriceInfo'
         ],
         'VariationProductListingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\VariationProductListingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationProductListingDetails'

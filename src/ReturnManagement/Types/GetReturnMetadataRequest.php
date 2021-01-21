@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace lliyplliuk\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\MetadataCodeType[] $metadataEntryCode
+ * @property \lliyplliuk\eBaySDK\ReturnManagement\Enums\MetadataCodeType[] $metadataEntryCode
  */
-class GetReturnMetadataRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class GetReturnMetadataRequest extends \lliyplliuk\eBaySDK\ReturnManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

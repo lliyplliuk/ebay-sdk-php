@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace lliyplliuk\eBaySDK\Product\Types;
 
 /**
  *
@@ -17,7 +17,7 @@ namespace DTS\eBaySDK\Product\Types;
  * @property integer $pageNumber
  * @property integer $entriesPerPage
  */
-class PaginationOutput extends \DTS\eBaySDK\Types\BaseType
+class PaginationOutput extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

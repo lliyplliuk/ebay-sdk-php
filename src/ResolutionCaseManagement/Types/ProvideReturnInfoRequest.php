@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Address $address
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\Address $address
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
  * @property string $returnMerchandiseAuthorization
  */
-class ProvideReturnInfoRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class ProvideReturnInfoRequest extends \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'address' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Address',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'address'
         ],
         'caseId' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseId'

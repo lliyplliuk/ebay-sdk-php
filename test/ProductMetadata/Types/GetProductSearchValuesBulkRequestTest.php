@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Types;
+namespace lliyplliuk\eBaySDK\Test\ProductMetadata\Types;
 
-use DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBulkRequest;
+use lliyplliuk\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBulkRequest;
 
 class GetProductSearchValuesBulkRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetProductSearchValuesBulkRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBulkRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBulkRequest', $this->obj);
     }
 
     public function testExtendsGetProductSearchValuesBaseRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBaseRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ProductMetadata\Types\GetProductSearchValuesBaseRequest', $this->obj);
     }
 }

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace lliyplliuk\eBaySDK\Product\Types;
 
 /**
  *
  * @property integer $pageNumber
  * @property integer $entriesPerPage
  */
-class PaginationInput extends \DTS\eBaySDK\Types\BaseType
+class PaginationInput extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

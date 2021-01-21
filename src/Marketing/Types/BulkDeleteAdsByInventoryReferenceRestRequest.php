@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $campaign_id
  */
-class BulkDeleteAdsByInventoryReferenceRestRequest extends \DTS\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRequest
+class BulkDeleteAdsByInventoryReferenceRestRequest extends \lliyplliuk\eBaySDK\Marketing\Types\BulkDeleteAdsByInventoryReferenceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

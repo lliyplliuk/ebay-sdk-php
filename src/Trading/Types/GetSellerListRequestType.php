@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $UserID
- * @property \DTS\eBaySDK\Trading\Types\UserIDArrayType $MotorsDealerUsers
+ * @property \lliyplliuk\eBaySDK\Trading\Types\UserIDArrayType $MotorsDealerUsers
  * @property \DateTime $EndTimeFrom
  * @property \DateTime $EndTimeTo
  * @property integer $Sort
  * @property \DateTime $StartTimeFrom
  * @property \DateTime $StartTimeTo
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType $GranularityLevel
- * @property \DTS\eBaySDK\Trading\Types\SKUArrayType $SKUArray
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\GranularityLevelCodeType $GranularityLevel
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SKUArrayType $SKUArray
  * @property boolean $IncludeWatchCount
  * @property boolean $AdminEndedItemsOnly
  * @property integer $CategoryID
  * @property boolean $IncludeVariations
  */
-class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellerListRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -40,7 +40,7 @@ class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'elementName' => 'UserID'
         ],
         'MotorsDealerUsers' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserIDArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\UserIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MotorsDealerUsers'
@@ -76,7 +76,7 @@ class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'elementName' => 'StartTimeTo'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
@@ -88,7 +88,7 @@ class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'elementName' => 'GranularityLevel'
         ],
         'SKUArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SKUArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SKUArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SKUArray'

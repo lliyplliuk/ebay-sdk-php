@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest;
+use lliyplliuk\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest;
 
 class EscalateInquiryRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class EscalateInquiryRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\EscalateInquiryRestRequest', $this->obj);
     }
 
     public function testExtendsEscalateInquiryRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\EscalateInquiryRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\EscalateInquiryRequest', $this->obj);
     }
 }

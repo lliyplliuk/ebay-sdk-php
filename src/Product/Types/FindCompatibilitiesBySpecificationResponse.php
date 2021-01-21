@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace lliyplliuk\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\PaginationOutput $paginationOutput
- * @property \DTS\eBaySDK\Product\Types\CompatibilityDetails[] $compatibilityDetails
+ * @property \lliyplliuk\eBaySDK\Product\Types\PaginationOutput $paginationOutput
+ * @property \lliyplliuk\eBaySDK\Product\Types\CompatibilityDetails[] $compatibilityDetails
  */
-class FindCompatibilitiesBySpecificationResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
+class FindCompatibilitiesBySpecificationResponse extends \lliyplliuk\eBaySDK\Product\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PaginationOutput',
+            'type' => 'lliyplliuk\eBaySDK\Product\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'
         ],
         'compatibilityDetails' => [
-            'type' => 'DTS\eBaySDK\Product\Types\CompatibilityDetails',
+            'type' => 'lliyplliuk\eBaySDK\Product\Types\CompatibilityDetails',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'compatibilityDetails'

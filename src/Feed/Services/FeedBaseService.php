@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Feed\Services;
+namespace lliyplliuk\eBaySDK\Feed\Services;
 
 /**
  * Base class for the Feed service.
  */
-class FeedBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class FeedBaseService extends \lliyplliuk\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class FeedBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Feed\Services\FeedService::API_VERSION,
+                'default' => \lliyplliuk\eBaySDK\Feed\Services\FeedService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

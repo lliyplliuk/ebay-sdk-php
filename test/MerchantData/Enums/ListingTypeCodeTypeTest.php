@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace lliyplliuk\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\ListingTypeCodeType;
+use lliyplliuk\eBaySDK\MerchantData\Enums\ListingTypeCodeType;
 
 class ListingTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ListingTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\ListingTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Enums\ListingTypeCodeType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\Test\ResolutionCaseManagement\Types;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType;
+use lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType;
 
 class InitialBuyerExpectationDetailTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class InitialBuyerExpectationDetailTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType', $this->obj);
     }
 
     public function testExtendsEnumerationDetailType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace lliyplliuk\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\ReturnPolicyResponse;
+use lliyplliuk\eBaySDK\Account\Types\ReturnPolicyResponse;
 
 class ReturnPolicyResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ReturnPolicyResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\ReturnPolicyResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Account\Types\ReturnPolicyResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

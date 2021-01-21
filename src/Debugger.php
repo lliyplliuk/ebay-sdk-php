@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK;
+namespace lliyplliuk\eBaySDK;
 
 /**
  * @internal Handles outputing debug messages.

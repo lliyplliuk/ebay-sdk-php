@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\Test\ResolutionCaseManagement\Types;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType;
+use lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType;
 
 class ProvideTrackingInfoOptionTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProvideTrackingInfoOptionTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\ProvideTrackingInfoOptionType', $this->obj);
     }
 
     public function testExtendsBaseActivityOptionType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType', $this->obj);
     }
 }

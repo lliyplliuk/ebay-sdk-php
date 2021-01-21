@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Types;
+namespace lliyplliuk\eBaySDK\Test\ProductMetadata\Types;
 
-use DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest;
+use lliyplliuk\eBaySDK\ProductMetadata\Types\ProductMetadataRequest;
 
 class ProductMetadataRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductMetadataRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ProductMetadata\Types\ProductMetadataRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ProductMetadata\Types\BaseRequest', $this->obj);
     }
 }

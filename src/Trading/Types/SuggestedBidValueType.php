@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AmountType[] $BidValue
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType[] $BidValue
  */
-class SuggestedBidValueType extends \DTS\eBaySDK\Types\BaseType
+class SuggestedBidValueType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BidValue' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'BidValue'

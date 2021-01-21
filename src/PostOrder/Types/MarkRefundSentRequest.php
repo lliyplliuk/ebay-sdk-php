@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $comments
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
- * @property \DTS\eBaySDK\PostOrder\Types\RefundDetailType $refundDetail
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\RefundDetailType $refundDetail
  */
-class MarkRefundSentRequest extends \DTS\eBaySDK\Types\BaseType
+class MarkRefundSentRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class MarkRefundSentRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'comments'
         ],
         'partialRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'partialRefundAmount'
         ],
         'refundDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundDetailType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\RefundDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundDetail'

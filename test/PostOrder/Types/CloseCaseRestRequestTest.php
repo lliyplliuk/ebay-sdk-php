@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest;
+use lliyplliuk\eBaySDK\PostOrder\Types\CloseCaseRestRequest;
 
 class CloseCaseRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CloseCaseRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CloseCaseRestRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\CloseCaseRestRequest', $this->obj);
     }
 
     public function testExtendsBuyerCloseCaseRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\BuyerCloseCaseRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\BuyerCloseCaseRequest', $this->obj);
     }
 }

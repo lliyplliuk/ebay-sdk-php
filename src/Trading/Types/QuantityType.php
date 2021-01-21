@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $unit
  */
-class QuantityType extends \DTS\eBaySDK\Types\DecimalType
+class QuantityType extends \lliyplliuk\eBaySDK\Types\DecimalType
 {
     /**
      * @var array Properties belonging to objects of this class.

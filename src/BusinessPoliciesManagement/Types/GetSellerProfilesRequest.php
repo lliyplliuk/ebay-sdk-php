@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType[] $profileType
+ * @property \lliyplliuk\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType[] $profileType
  * @property integer[] $profileId
  * @property string[] $profileName
  * @property boolean $includeDetails
  */
-class GetSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
+class GetSellerProfilesRequest extends \lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

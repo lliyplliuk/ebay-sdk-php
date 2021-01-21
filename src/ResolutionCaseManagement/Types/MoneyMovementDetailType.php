@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementType $type
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $fromParty
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $toParty
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $amount
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\PaymentMethodType $paymentMethod
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementType $type
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $fromParty
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $toParty
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\Amount $amount
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\PaymentMethodType $paymentMethod
  * @property string $paypalTransactionId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementStatusType $status
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementStatusType $status
  * @property \DateTime $transactionDate
  * @property string $id
  * @property string $parentId
  */
-class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
+class MoneyMovementDetailType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,19 +36,19 @@ class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'type'
         ],
         'fromParty' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'fromParty'
         ],
         'toParty' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'toParty'
         ],
         'amount' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'

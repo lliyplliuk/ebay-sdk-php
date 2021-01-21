@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Order\Enums;
+namespace lliyplliuk\eBaySDK\Test\Order\Enums;
 
-use DTS\eBaySDK\Order\Enums\LineItemStatusEnum;
+use lliyplliuk\eBaySDK\Order\Enums\LineItemStatusEnum;
 
 class LineItemStatusEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class LineItemStatusEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Order\Enums\LineItemStatusEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Order\Enums\LineItemStatusEnum', $this->obj);
     }
 }

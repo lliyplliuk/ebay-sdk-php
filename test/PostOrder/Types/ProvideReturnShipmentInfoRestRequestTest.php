@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest;
+use lliyplliuk\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest;
 
 class ProvideReturnShipmentInfoRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProvideReturnShipmentInfoRestRequestTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\ProvideReturnShipmentInfoRestRequest', $this->obj);
     }
 
     public function testExtendsProvideShipmentInfoRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvideShipmentInfoRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\ProvideShipmentInfoRequest', $this->obj);
     }
 }

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\RefundType[] $Refund
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\RefundType[] $Refund
  */
-class RefundArrayType extends \DTS\eBaySDK\Types\BaseType
+class RefundArrayType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Refund' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\RefundType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\RefundType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Refund'

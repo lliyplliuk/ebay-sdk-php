@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $draftId
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnRequestType $returnRequest
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ReturnRequestType $returnRequest
  */
-class CreateReturnRequest extends \DTS\eBaySDK\Types\BaseType
+class CreateReturnRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CreateReturnRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'draftId'
         ],
         'returnRequest' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnRequestType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ReturnRequestType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnRequest'

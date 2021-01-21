@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\ValueTypeCodeType $ValueType
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\ValueTypeCodeType $ValueType
  * @property integer $MinValues
  * @property integer $MaxValues
- * @property \DTS\eBaySDK\Trading\Enums\SelectionModeCodeType $SelectionMode
- * @property \DTS\eBaySDK\Trading\Enums\AspectUsageCodeType $AspectUsage
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\SelectionModeCodeType $SelectionMode
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\AspectUsageCodeType $AspectUsage
  * @property integer $MaxValueLength
- * @property \DTS\eBaySDK\Trading\Enums\ProductRequiredCodeType $ProductRequired
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\ProductRequiredCodeType $ProductRequired
  * @property integer $Confidence
- * @property \DTS\eBaySDK\Trading\Types\NameValueRelationshipType[] $Relationship
- * @property \DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType $VariationPicture
- * @property \DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType $VariationSpecifics
- * @property \DTS\eBaySDK\Trading\Enums\ValueFormatCodeType $ValueFormat
+ * @property \lliyplliuk\eBaySDK\Trading\Types\NameValueRelationshipType[] $Relationship
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\VariationPictureRuleCodeType $VariationPicture
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType $VariationSpecifics
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\ValueFormatCodeType $ValueFormat
  */
-class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
+class RecommendationValidationRulesType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -80,7 +80,7 @@ class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Confidence'
         ],
         'Relationship' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueRelationshipType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\NameValueRelationshipType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Relationship'

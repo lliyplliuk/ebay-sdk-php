@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
@@ -18,7 +18,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $severity
  * @property string $category
  * @property string $message
- * @property \DTS\eBaySDK\PostOrder\Types\ErrorParameter[] $parameter
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ErrorParameter[] $parameter
  * @property string $longMessage
  * @property integer $httpStatusCode
  * @property string $errorName
@@ -26,7 +26,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $organization
  * @property string $errorGroups
  */
-class Error extends \DTS\eBaySDK\Types\BaseType
+class Error extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -69,7 +69,7 @@ class Error extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'message'
         ],
         'parameter' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorParameter',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ErrorParameter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'parameter'

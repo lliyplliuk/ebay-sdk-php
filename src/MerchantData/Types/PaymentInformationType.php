@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\PaymentTransactionType[] $Payment
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\PaymentTransactionType[] $Payment
  */
-class PaymentInformationType extends \DTS\eBaySDK\Types\BaseType
+class PaymentInformationType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Payment' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PaymentTransactionType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\PaymentTransactionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Payment'

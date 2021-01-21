@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Catalog\Types;
+namespace lliyplliuk\eBaySDK\Test\Catalog\Types;
 
-use DTS\eBaySDK\Catalog\Types\ViolationProductAttribute;
+use lliyplliuk\eBaySDK\Catalog\Types\ViolationProductAttribute;
 
 class ViolationProductAttributeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ViolationProductAttributeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ViolationProductAttribute', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Catalog\Types\ViolationProductAttribute', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

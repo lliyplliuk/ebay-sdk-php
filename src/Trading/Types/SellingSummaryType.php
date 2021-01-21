@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $ActiveAuctionCount
  * @property integer $AuctionSellingCount
  * @property integer $AuctionBidCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
  * @property integer $TotalSoldCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalSoldValue
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $TotalSoldValue
  * @property integer $SoldDurationInDays
  */
-class SellingSummaryType extends \DTS\eBaySDK\Types\BaseType
+class SellingSummaryType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -45,7 +45,7 @@ class SellingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'AuctionBidCount'
         ],
         'TotalAuctionSellingValue' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalAuctionSellingValue'
@@ -57,7 +57,7 @@ class SellingSummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'TotalSoldCount'
         ],
         'TotalSoldValue' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalSoldValue'

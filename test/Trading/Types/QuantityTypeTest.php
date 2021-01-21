@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace lliyplliuk\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\QuantityType;
+use lliyplliuk\eBaySDK\Trading\Types\QuantityType;
 
 class QuantityTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class QuantityTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\QuantityType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Types\QuantityType', $this->obj);
     }
 
     public function testExtendsDecimalType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\DecimalType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\DecimalType', $this->obj);
     }
 }

@@ -1,9 +1,9 @@
 <?php
-namespace DTS\eBaySDK;
+namespace lliyplliuk\eBaySDK;
 
-use DTS\eBaySDK\Credentials\Credentials;
-use DTS\eBaySDK\Credentials\CredentialsProvider;
-use DTS\eBaySDK\Credentials\CredentialsInterface;
+use lliyplliuk\eBaySDK\Credentials\Credentials;
+use lliyplliuk\eBaySDK\Credentials\CredentialsProvider;
+use lliyplliuk\eBaySDK\Credentials\CredentialsInterface;
 
 /**
  * Returns a description of the type for the passed value.
@@ -102,7 +102,7 @@ function applyCredentials($value, array &$configuration)
     } else {
         throw new \InvalidArgumentException(
             'Credentials must be an instance of '
-            . 'DTS\eBaySDK\Credentials\CredentialsInterface, an associative '
+            . 'lliyplliuk\eBaySDK\Credentials\CredentialsInterface, an associative '
             . 'array that contains "appId", "certId", "devId", '
             . 'or a credentials provider function.'
         );
@@ -140,7 +140,7 @@ function applyDebug($value, array &$configuration)
  *
  * @param array &$configuration Not used.
  *
- * @return \DTS\eBaySDK\HttpHandler
+ * @return \lliyplliuk\eBaySDK\HttpHandler
  */
 function defaultHttpHandler(array &$configuration)
 {
@@ -156,7 +156,7 @@ function defaultHttpHandler(array &$configuration)
  */
 function checkPropertyType($type)
 {
-    if (\DTS\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES) {
+    if (\lliyplliuk\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES) {
         return true;
     }
 

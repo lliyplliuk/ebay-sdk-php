@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesCountDetailsType $MaximumUnpaidItemStrikesCount
- * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesDurationDetailsType[] $MaximumUnpaidItemStrikesDuration
+ * @property \lliyplliuk\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesCountDetailsType $MaximumUnpaidItemStrikesCount
+ * @property \lliyplliuk\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesDurationDetailsType[] $MaximumUnpaidItemStrikesDuration
  */
-class MaximumUnpaidItemStrikesInfoDetailsType extends \DTS\eBaySDK\Types\BaseType
+class MaximumUnpaidItemStrikesInfoDetailsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'MaximumUnpaidItemStrikesCount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesCountDetailsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesCountDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaximumUnpaidItemStrikesCount'
         ],
         'MaximumUnpaidItemStrikesDuration' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesDurationDetailsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesDurationDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'MaximumUnpaidItemStrikesDuration'

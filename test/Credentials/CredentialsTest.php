@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Credentials\Test;
+namespace lliyplliuk\eBaySDK\Credentials\Test;
 
-use DTS\eBaySDK\Credentials\Credentials;
+use lliyplliuk\eBaySDK\Credentials\Credentials;
 
 class CredentialsTest extends \PHPUnit_Framework_TestCase
 {

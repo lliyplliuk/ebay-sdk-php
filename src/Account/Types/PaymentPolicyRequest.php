@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace lliyplliuk\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
- * @property \DTS\eBaySDK\Account\Types\Deposit $deposit
+ * @property \lliyplliuk\eBaySDK\Account\Types\CategoryType[] $categoryTypes
+ * @property \lliyplliuk\eBaySDK\Account\Types\Deposit $deposit
  * @property string $description
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $fullPaymentDueIn
+ * @property \lliyplliuk\eBaySDK\Account\Types\TimeDuration $fullPaymentDueIn
  * @property boolean $immediatePay
- * @property \DTS\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \lliyplliuk\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
  * @property string $paymentInstructions
- * @property \DTS\eBaySDK\Account\Types\PaymentMethod[] $paymentMethods
+ * @property \lliyplliuk\eBaySDK\Account\Types\PaymentMethod[] $paymentMethods
  */
-class PaymentPolicyRequest extends \DTS\eBaySDK\Types\BaseType
+class PaymentPolicyRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryTypes' => [
-            'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryTypes'
         ],
         'deposit' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Deposit',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\Deposit',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'deposit'
@@ -47,7 +47,7 @@ class PaymentPolicyRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'description'
         ],
         'fullPaymentDueIn' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'fullPaymentDueIn'
@@ -77,7 +77,7 @@ class PaymentPolicyRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'paymentInstructions'
         ],
         'paymentMethods' => [
-            'type' => 'DTS\eBaySDK\Account\Types\PaymentMethod',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\PaymentMethod',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'paymentMethods'

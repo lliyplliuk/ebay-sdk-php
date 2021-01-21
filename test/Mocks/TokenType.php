@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace lliyplliuk\eBaySDK\Test\Mocks;
 
-class TokenType extends \DTS\eBaySDK\Types\TokenType
+class TokenType extends \lliyplliuk\eBaySDK\Types\TokenType
 {
     private static $propertyTypes = [];
 

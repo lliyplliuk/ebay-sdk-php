@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $SiteID
  * @property string $Version
  */
-class MerchantDataRequestHeaderType extends \DTS\eBaySDK\Types\BaseType
+class MerchantDataRequestHeaderType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

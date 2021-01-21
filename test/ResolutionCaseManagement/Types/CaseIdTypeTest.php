@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\Test\ResolutionCaseManagement\Types;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType;
+use lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseIdType;
 
 class CaseIdTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CaseIdTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseIdType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Analytics\Enums;
+namespace lliyplliuk\eBaySDK\Test\Analytics\Enums;
 
-use DTS\eBaySDK\Analytics\Enums\ProgramEnum;
+use lliyplliuk\eBaySDK\Analytics\Enums\ProgramEnum;
 
 class ProgramEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ProgramEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Enums\ProgramEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Analytics\Enums\ProgramEnum', $this->obj);
     }
 }

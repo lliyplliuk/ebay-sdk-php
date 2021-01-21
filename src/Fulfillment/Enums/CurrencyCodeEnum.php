@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Enums;
+namespace lliyplliuk\eBaySDK\Fulfillment\Enums;
 
 class CurrencyCodeEnum
 {

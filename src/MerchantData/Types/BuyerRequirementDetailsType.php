@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property boolean $ShipToRegistrationCountry
  * @property boolean $ZeroFeedbackScore
  * @property integer $MinimumFeedbackScore
- * @property \DTS\eBaySDK\MerchantData\Types\MaximumItemRequirementsType $MaximumItemRequirements
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\MaximumItemRequirementsType $MaximumItemRequirements
  * @property boolean $LinkedPayPalAccount
- * @property \DTS\eBaySDK\MerchantData\Types\VerifiedUserRequirementsType $VerifiedUserRequirements
- * @property \DTS\eBaySDK\MerchantData\Types\MaximumUnpaidItemStrikesInfoType $MaximumUnpaidItemStrikesInfo
- * @property \DTS\eBaySDK\MerchantData\Types\MaximumBuyerPolicyViolationsType $MaximumBuyerPolicyViolations
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\VerifiedUserRequirementsType $VerifiedUserRequirements
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\MaximumUnpaidItemStrikesInfoType $MaximumUnpaidItemStrikesInfo
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\MaximumBuyerPolicyViolationsType $MaximumBuyerPolicyViolations
  */
-class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BuyerRequirementDetailsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -46,7 +46,7 @@ class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'MinimumFeedbackScore'
         ],
         'MaximumItemRequirements' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MaximumItemRequirementsType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\MaximumItemRequirementsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaximumItemRequirements'
@@ -58,19 +58,19 @@ class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'LinkedPayPalAccount'
         ],
         'VerifiedUserRequirements' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\VerifiedUserRequirementsType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\VerifiedUserRequirementsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VerifiedUserRequirements'
         ],
         'MaximumUnpaidItemStrikesInfo' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MaximumUnpaidItemStrikesInfoType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\MaximumUnpaidItemStrikesInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaximumUnpaidItemStrikesInfo'
         ],
         'MaximumBuyerPolicyViolations' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MaximumBuyerPolicyViolationsType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\MaximumBuyerPolicyViolationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaximumBuyerPolicyViolations'

@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\ProductMetadata\Services;
+namespace lliyplliuk\eBaySDK\Test\ProductMetadata\Services;
 
-use DTS\eBaySDK\ProductMetadata\Services\ProductMetadataBaseService;
-use DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService;
-use DTS\eBaySDK\Test\ProductMetadata\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use lliyplliuk\eBaySDK\ProductMetadata\Services\ProductMetadataBaseService;
+use lliyplliuk\eBaySDK\ProductMetadata\Services\ProductMetadataService;
+use lliyplliuk\eBaySDK\Test\ProductMetadata\Mocks\Service;
+use lliyplliuk\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace lliyplliuk\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\VariationType[] $Variation
- * @property \DTS\eBaySDK\Shopping\Types\PicturesType[] $Pictures
- * @property \DTS\eBaySDK\Shopping\Types\NameValueListArrayType $VariationSpecificsSet
+ * @property \lliyplliuk\eBaySDK\Shopping\Types\VariationType[] $Variation
+ * @property \lliyplliuk\eBaySDK\Shopping\Types\PicturesType[] $Pictures
+ * @property \lliyplliuk\eBaySDK\Shopping\Types\NameValueListArrayType $VariationSpecificsSet
  */
-class VariationsType extends \DTS\eBaySDK\Types\BaseType
+class VariationsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Variation' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\VariationType',
+            'type' => 'lliyplliuk\eBaySDK\Shopping\Types\VariationType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Variation'
         ],
         'Pictures' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\PicturesType',
+            'type' => 'lliyplliuk\eBaySDK\Shopping\Types\PicturesType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Pictures'
         ],
         'VariationSpecificsSet' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Shopping\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationSpecificsSet'

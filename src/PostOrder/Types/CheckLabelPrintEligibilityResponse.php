@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property boolean $printLabelValid
  */
-class CheckLabelPrintEligibilityResponse extends \DTS\eBaySDK\Types\BaseType
+class CheckLabelPrintEligibilityResponse extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

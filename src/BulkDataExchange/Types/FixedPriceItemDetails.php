@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace lliyplliuk\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property boolean $includeVariations
  */
-class FixedPriceItemDetails extends \DTS\eBaySDK\Types\BaseType
+class FixedPriceItemDetails extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

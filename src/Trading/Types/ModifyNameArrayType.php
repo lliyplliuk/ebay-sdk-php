@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ModifyNameType[] $ModifyName
+ * @property \lliyplliuk\eBaySDK\Trading\Types\ModifyNameType[] $ModifyName
  */
-class ModifyNameArrayType extends \DTS\eBaySDK\Types\BaseType
+class ModifyNameArrayType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ModifyName' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ModifyNameType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\ModifyNameType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ModifyName'

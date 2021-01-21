@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace lliyplliuk\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ShipmentStatusType $shipmentStatus
+ * @property \lliyplliuk\eBaySDK\ReturnManagement\Enums\ShipmentStatusType $shipmentStatus
  * @property string $trackingNumber
  * @property string $carrierUsed
  * @property \DateTime $deliveryDate
- * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $shippingCost
- * @property \DTS\eBaySDK\ReturnManagement\Types\Address $shippingAddress
+ * @property \lliyplliuk\eBaySDK\ReturnManagement\Types\Amount $shippingCost
+ * @property \lliyplliuk\eBaySDK\ReturnManagement\Types\Address $shippingAddress
  * @property string $returnMerchandiseAuthorization
  * @property \DateTime $minEstDeliveryDate
  * @property \DateTime $maxEstDeliveryDate
  */
-class ShipmentType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -53,13 +53,13 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'deliveryDate'
         ],
         'shippingCost' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\ReturnManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
         ],
         'shippingAddress' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Address',
+            'type' => 'lliyplliuk\eBaySDK\ReturnManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingAddress'

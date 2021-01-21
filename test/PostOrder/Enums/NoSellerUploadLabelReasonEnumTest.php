@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Enums;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Enums;
 
-use DTS\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum;
+use lliyplliuk\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum;
 
 class NoSellerUploadLabelReasonEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class NoSellerUploadLabelReasonEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum', $this->obj);
     }
 }

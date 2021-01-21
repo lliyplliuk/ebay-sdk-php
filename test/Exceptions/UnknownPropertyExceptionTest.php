@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Exceptions\Test;
+namespace lliyplliuk\eBaySDK\Exceptions\Test;
 
-use DTS\eBaySDK\Exceptions\UnknownPropertyException;
+use lliyplliuk\eBaySDK\Exceptions\UnknownPropertyException;
 
 class UnknownPropertyExceptionTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,7 +14,7 @@ class UnknownPropertyExceptionTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Exceptions\UnknownPropertyException', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Exceptions\UnknownPropertyException', $this->obj);
     }
 
     public function testExtendsLogicException()

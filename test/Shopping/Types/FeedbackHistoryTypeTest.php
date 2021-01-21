@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace lliyplliuk\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\FeedbackHistoryType;
+use lliyplliuk\eBaySDK\Shopping\Types\FeedbackHistoryType;
 
 class FeedbackHistoryTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FeedbackHistoryTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\FeedbackHistoryType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Shopping\Types\FeedbackHistoryType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

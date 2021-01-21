@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
@@ -17,15 +17,15 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $shippingType
  * @property integer $sortOrderId
  * @property boolean $freeShipping
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
+ * @property \lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
  * @property boolean $fastShipping
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingOverrideFee
+ * @property \lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
+ * @property \lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
+ * @property \lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
+ * @property \lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingOverrideFee
  * @property boolean $buyerResponsibleForShipping
  */
-class ShippingPolicyService extends \DTS\eBaySDK\Types\BaseType
+class ShippingPolicyService extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -62,7 +62,7 @@ class ShippingPolicyService extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'freeShipping'
         ],
         'codFee' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'codFee'
@@ -74,25 +74,25 @@ class ShippingPolicyService extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'fastShipping'
         ],
         'shippingServiceAdditionalCost' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingServiceAdditionalCost'
         ],
         'shippingServiceCost' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingServiceCost'
         ],
         'shippingSurcharge' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingSurcharge'
         ],
         'shippingOverrideFee' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingOverrideFee'

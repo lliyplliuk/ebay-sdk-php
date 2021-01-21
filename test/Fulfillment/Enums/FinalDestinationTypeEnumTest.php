@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Enums;
+namespace lliyplliuk\eBaySDK\Test\Fulfillment\Enums;
 
-use DTS\eBaySDK\Fulfillment\Enums\FinalDestinationTypeEnum;
+use lliyplliuk\eBaySDK\Fulfillment\Enums\FinalDestinationTypeEnum;
 
 class FinalDestinationTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class FinalDestinationTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\FinalDestinationTypeEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Fulfillment\Enums\FinalDestinationTypeEnum', $this->obj);
     }
 }

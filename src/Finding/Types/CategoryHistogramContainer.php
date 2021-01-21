@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace lliyplliuk\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\CategoryHistogram[] $categoryHistogram
+ * @property \lliyplliuk\eBaySDK\Finding\Types\CategoryHistogram[] $categoryHistogram
  */
-class CategoryHistogramContainer extends \DTS\eBaySDK\Types\BaseType
+class CategoryHistogramContainer extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryHistogram' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogram',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\CategoryHistogram',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryHistogram'

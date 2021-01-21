@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $description
- * @property \DTS\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
+ * @property \lliyplliuk\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
  * @property string $endDate
- * @property \DTS\eBaySDK\Marketing\Types\InventoryCriterion $inventoryCriterion
- * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \lliyplliuk\eBaySDK\Marketing\Types\InventoryCriterion $inventoryCriterion
+ * @property \lliyplliuk\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
+ * @property \lliyplliuk\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
  * @property string $promotionImageUrl
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
+ * @property \lliyplliuk\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
  * @property string $startDate
  */
-class ItemPromotion extends \DTS\eBaySDK\Types\BaseType
+class ItemPromotion extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,7 +36,7 @@ class ItemPromotion extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'description'
         ],
         'discountRules' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DiscountRule',
+            'type' => 'lliyplliuk\eBaySDK\Marketing\Types\DiscountRule',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'discountRules'
@@ -48,7 +48,7 @@ class ItemPromotion extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'endDate'
         ],
         'inventoryCriterion' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryCriterion',
+            'type' => 'lliyplliuk\eBaySDK\Marketing\Types\InventoryCriterion',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inventoryCriterion'

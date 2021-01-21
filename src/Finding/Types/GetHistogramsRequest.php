@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace lliyplliuk\eBaySDK\Finding\Types;
 
 /**
  *
  * @property string $categoryId
  */
-class GetHistogramsRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
+class GetHistogramsRequest extends \lliyplliuk\eBaySDK\Finding\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

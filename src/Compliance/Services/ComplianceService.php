@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Compliance\Services;
+namespace lliyplliuk\eBaySDK\Compliance\Services;
 
-class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseService
+class ComplianceService extends \lliyplliuk\eBaySDK\Compliance\Services\ComplianceBaseService
 {
     const API_VERSION = 'v1';
 
@@ -21,7 +21,7 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
         'GetListingViolationsSummary' => [
             'method' => 'GET',
             'resource' => 'listing_violation_summary',
-            'responseClass' => '\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse',
+            'responseClass' => '\lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse',
             'params' => [
                 'compliance_type' => [
                     'valid' => ['string']
@@ -31,7 +31,7 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
         'GetListingViolations' => [
             'method' => 'GET',
             'resource' => 'listing_violation',
-            'responseClass' => '\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse',
+            'responseClass' => '\lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsRestResponse',
             'params' => [
                 'limit' => [
                     'valid' => ['integer']
@@ -58,37 +58,37 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
-     * @return \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse
+     * @param \lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
+     * @return \lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse
      */
-    public function getListingViolationsSummary(\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
+    public function getListingViolationsSummary(\lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
     {
         return $this->getListingViolationsSummaryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
+     * @param \lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getListingViolationsSummaryAsync(\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
+    public function getListingViolationsSummaryAsync(\lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
     {
         return $this->callOperationAsync('GetListingViolationsSummary', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
-     * @return \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse
+     * @param \lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
+     * @return \lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsRestResponse
      */
-    public function getListingViolations(\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
+    public function getListingViolations(\lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
     {
         return $this->getListingViolationsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
+     * @param \lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getListingViolationsAsync(\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
+    public function getListingViolationsAsync(\lliyplliuk\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
     {
         return $this->callOperationAsync('GetListingViolations', $request);
     }

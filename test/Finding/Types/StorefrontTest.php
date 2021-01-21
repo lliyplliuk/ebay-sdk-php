@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Finding\Types;
+namespace lliyplliuk\eBaySDK\Test\Finding\Types;
 
-use DTS\eBaySDK\Finding\Types\Storefront;
+use lliyplliuk\eBaySDK\Finding\Types\Storefront;
 
 class StorefrontTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class StorefrontTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\Storefront', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Finding\Types\Storefront', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

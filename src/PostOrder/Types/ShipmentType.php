@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ShipmentTrackingType[] $allShipmentTrackings
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ShipmentTrackingType[] $allShipmentTrackings
  * @property string $payee
- * @property \DTS\eBaySDK\PostOrder\Types\ShipmentTrackingType $shipmentTracking
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType $shippingLabelCost
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ShipmentTrackingType $shipmentTracking
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType $shippingLabelCost
  */
-class ShipmentType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'allShipmentTrackings' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ShipmentTrackingType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ShipmentTrackingType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'allShipmentTrackings'
@@ -36,13 +36,13 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'payee'
         ],
         'shipmentTracking' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ShipmentTrackingType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ShipmentTrackingType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipmentTracking'
         ],
         'shippingLabelCost' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingLabelCost'

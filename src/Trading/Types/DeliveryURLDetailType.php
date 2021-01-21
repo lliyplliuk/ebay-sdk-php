@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $DeliveryURLName
  * @property string $DeliveryURL
- * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $Status
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\EnableCodeType $Status
  */
-class DeliveryURLDetailType extends \DTS\eBaySDK\Types\BaseType
+class DeliveryURLDetailType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

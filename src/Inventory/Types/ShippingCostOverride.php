@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace lliyplliuk\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Amount $additionalShippingCost
+ * @property \lliyplliuk\eBaySDK\Inventory\Types\Amount $additionalShippingCost
  * @property integer $priority
- * @property \DTS\eBaySDK\Inventory\Types\Amount $shippingCost
- * @property \DTS\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum $shippingServiceType
- * @property \DTS\eBaySDK\Inventory\Types\Amount $surcharge
+ * @property \lliyplliuk\eBaySDK\Inventory\Types\Amount $shippingCost
+ * @property \lliyplliuk\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum $shippingServiceType
+ * @property \lliyplliuk\eBaySDK\Inventory\Types\Amount $surcharge
  */
-class ShippingCostOverride extends \DTS\eBaySDK\Types\BaseType
+class ShippingCostOverride extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'additionalShippingCost' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'additionalShippingCost'
@@ -37,7 +37,7 @@ class ShippingCostOverride extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'priority'
         ],
         'shippingCost' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
@@ -49,7 +49,7 @@ class ShippingCostOverride extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'shippingServiceType'
         ],
         'surcharge' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'surcharge'

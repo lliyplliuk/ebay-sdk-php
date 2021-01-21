@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Analytics\Types;
+namespace lliyplliuk\eBaySDK\Test\Analytics\Types;
 
-use DTS\eBaySDK\Analytics\Types\Value;
+use lliyplliuk\eBaySDK\Analytics\Types\Value;
 
 class ValueTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ValueTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\Value', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Analytics\Types\Value', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentStatusCodeType $eBayPaymentStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\CheckoutStatusCodeType $CheckoutStatus
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\PaymentStatusCodeType $eBayPaymentStatus
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\CheckoutStatusCodeType $CheckoutStatus
  * @property \DateTime $LastTimeModified
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
- * @property \DTS\eBaySDK\MerchantData\Enums\CompleteStatusCodeType $CompleteStatus
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\CompleteStatusCodeType $CompleteStatus
  * @property boolean $BuyerSelectedShipping
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\MerchantData\Enums\InquiryStatusCodeType $InquiryStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\ReturnStatusCodeType $ReturnStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
- * @property \DTS\eBaySDK\MerchantData\Enums\DigitalStatusCodeType $DigitalStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\CancelStatusCodeType $CancelStatus
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\InquiryStatusCodeType $InquiryStatus
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\ReturnStatusCodeType $ReturnStatus
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\DigitalStatusCodeType $DigitalStatus
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\CancelStatusCodeType $CancelStatus
  */
-class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
+class TransactionStatusType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\Amount $baseSale
+ * @property \lliyplliuk\eBaySDK\Marketing\Types\Amount $baseSale
  * @property string $lastUpdated
  * @property string $percentageSalesLift
- * @property \DTS\eBaySDK\Marketing\Types\Amount $promotionSale
- * @property \DTS\eBaySDK\Marketing\Types\Amount $totalSale
+ * @property \lliyplliuk\eBaySDK\Marketing\Types\Amount $promotionSale
+ * @property \lliyplliuk\eBaySDK\Marketing\Types\Amount $totalSale
  */
-class SummaryReportResponse extends \DTS\eBaySDK\Types\BaseType
+class SummaryReportResponse extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'baseSale' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'baseSale'
@@ -43,13 +43,13 @@ class SummaryReportResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'percentageSalesLift'
         ],
         'promotionSale' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'promotionSale'
         ],
         'totalSale' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'totalSale'

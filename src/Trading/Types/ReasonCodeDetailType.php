@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DetailedText
  * @property integer $codeID
  */
-class ReasonCodeDetailType extends \DTS\eBaySDK\Types\BaseType
+class ReasonCodeDetailType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

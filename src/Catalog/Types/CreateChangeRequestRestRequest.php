@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace lliyplliuk\eBaySDK\Catalog\Types;
 
 /**
  *
  */
-class CreateChangeRequestRestRequest extends \DTS\eBaySDK\Catalog\Types\CreateChangeRequestPayload
+class CreateChangeRequestRestRequest extends \lliyplliuk\eBaySDK\Catalog\Types\CreateChangeRequestPayload
 {
     /**
      * @var array Properties belonging to objects of this class.

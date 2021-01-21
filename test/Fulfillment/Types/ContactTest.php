@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Types;
+namespace lliyplliuk\eBaySDK\Test\Fulfillment\Types;
 
-use DTS\eBaySDK\Fulfillment\Types\Contact;
+use lliyplliuk\eBaySDK\Fulfillment\Types\Contact;
 
 class ContactTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ContactTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\Contact', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Fulfillment\Types\Contact', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

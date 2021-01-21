@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test;
+namespace lliyplliuk\eBaySDK\Test;
 
-use DTS\eBaySDK\Debugger;
+use lliyplliuk\eBaySDK\Debugger;
 
 class DebuggerTest extends \PHPUnit_Framework_TestCase
 {

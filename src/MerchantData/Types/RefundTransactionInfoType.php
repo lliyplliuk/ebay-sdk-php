@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType $RefundStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\RefundSourceTypeCodeType $RefundType
- * @property \DTS\eBaySDK\MerchantData\Types\UserIdentityType $RefundTo
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType $RefundStatus
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\RefundSourceTypeCodeType $RefundType
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\UserIdentityType $RefundTo
  * @property \DateTime $RefundTime
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundAmount
- * @property \DTS\eBaySDK\MerchantData\Types\TransactionReferenceType $ReferenceID
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeOrCreditAmount
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\AmountType $RefundAmount
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\TransactionReferenceType $ReferenceID
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\AmountType $FeeOrCreditAmount
  */
-class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
+class RefundTransactionInfoType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'RefundType'
         ],
         'RefundTo' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\UserIdentityType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundTo'
@@ -51,19 +51,19 @@ class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'RefundTime'
         ],
         'RefundAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'
         ],
         'ReferenceID' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\TransactionReferenceType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReferenceID'
         ],
         'FeeOrCreditAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeOrCreditAmount'

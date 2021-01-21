@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Merchandising\Enums;
+namespace lliyplliuk\eBaySDK\Test\Merchandising\Enums;
 
-use DTS\eBaySDK\Merchandising\Enums\AckValue;
+use lliyplliuk\eBaySDK\Merchandising\Enums\AckValue;
 
 class AckValueTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AckValueTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Enums\AckValue', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Merchandising\Enums\AckValue', $this->obj);
     }
 }

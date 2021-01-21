@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Feedback\Enums;
+namespace lliyplliuk\eBaySDK\Feedback\Enums;
 
 class ErrorSeverity
 {

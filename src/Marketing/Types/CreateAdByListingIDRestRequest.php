@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $campaign_id
  */
-class CreateAdByListingIDRestRequest extends \DTS\eBaySDK\Marketing\Types\CreateAdRequest
+class CreateAdByListingIDRestRequest extends \lliyplliuk\eBaySDK\Marketing\Types\CreateAdRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

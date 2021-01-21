@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\EstimatedRefundType[] $itemizedRefundDetails
- * @property \DTS\eBaySDK\PostOrder\Types\EstimatedRefundType[] $optionalRefundLineItems
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\EstimatedRefundType[] $itemizedRefundDetails
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\EstimatedRefundType[] $optionalRefundLineItems
  */
-class EstimatedRefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class EstimatedRefundDetailType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemizedRefundDetails' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\EstimatedRefundType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemizedRefundDetails'
         ],
         'optionalRefundLineItems' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\EstimatedRefundType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'optionalRefundLineItems'

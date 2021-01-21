@@ -8,11 +8,11 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\Campaign[] $campaigns
+ * @property \lliyplliuk\eBaySDK\Marketing\Types\Campaign[] $campaigns
  * @property string $href
  * @property integer $limit
  * @property string $next
@@ -20,14 +20,14 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $prev
  * @property integer $total
  */
-class CampaignPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class CampaignPagedCollection extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'campaigns' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\Campaign',
+            'type' => 'lliyplliuk\eBaySDK\Marketing\Types\Campaign',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'campaigns'

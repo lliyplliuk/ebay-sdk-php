@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType $ApplicationDeliveryPreferences
+ * @property \lliyplliuk\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType $ApplicationDeliveryPreferences
  * @property string $DeliveryURLName
- * @property \DTS\eBaySDK\Trading\Types\NotificationEnableArrayType $UserDeliveryPreferenceArray
- * @property \DTS\eBaySDK\Trading\Types\NotificationUserDataType $UserData
- * @property \DTS\eBaySDK\Trading\Types\NotificationEventPropertyType[] $EventProperty
+ * @property \lliyplliuk\eBaySDK\Trading\Types\NotificationEnableArrayType $UserDeliveryPreferenceArray
+ * @property \lliyplliuk\eBaySDK\Trading\Types\NotificationUserDataType $UserData
+ * @property \lliyplliuk\eBaySDK\Trading\Types\NotificationEventPropertyType[] $EventProperty
  */
-class GetNotificationPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetNotificationPreferencesResponseType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ApplicationDeliveryPreferences' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ApplicationDeliveryPreferences'
@@ -37,19 +37,19 @@ class GetNotificationPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\
             'elementName' => 'DeliveryURLName'
         ],
         'UserDeliveryPreferenceArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationEnableArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\NotificationEnableArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UserDeliveryPreferenceArray'
         ],
         'UserData' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationUserDataType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\NotificationUserDataType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UserData'
         ],
         'EventProperty' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationEventPropertyType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\NotificationEventPropertyType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'EventProperty'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Browse\Types;
+namespace lliyplliuk\eBaySDK\Test\Browse\Types;
 
-use DTS\eBaySDK\Browse\Types\Region;
+use lliyplliuk\eBaySDK\Browse\Types\Region;
 
 class RegionTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class RegionTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\Region', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Browse\Types\Region', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

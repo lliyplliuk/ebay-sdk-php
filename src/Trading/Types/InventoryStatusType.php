@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $SKU
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $StartPrice
  * @property integer $Quantity
  */
-class InventoryStatusType extends \DTS\eBaySDK\Types\BaseType
+class InventoryStatusType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,7 +36,7 @@ class InventoryStatusType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ItemID'
         ],
         'StartPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'

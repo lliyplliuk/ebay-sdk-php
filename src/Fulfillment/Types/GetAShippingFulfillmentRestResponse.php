@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace lliyplliuk\eBaySDK\Fulfillment\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
-use DTS\eBaySDK\HttpHeadersTrait;
+use lliyplliuk\eBaySDK\StatusCodeTrait;
+use lliyplliuk\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings
+ * @property \lliyplliuk\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $errors
+ * @property \lliyplliuk\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings
  */
-class GetAShippingFulfillmentRestResponse extends \DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment
+class GetAShippingFulfillmentRestResponse extends \lliyplliuk\eBaySDK\Fulfillment\Types\ShippingFulfillment
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class GetAShippingFulfillmentRestResponse extends \DTS\eBaySDK\Fulfillment\Types
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
+            'type' => 'lliyplliuk\eBaySDK\Fulfillment\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
+            'type' => 'lliyplliuk\eBaySDK\Fulfillment\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

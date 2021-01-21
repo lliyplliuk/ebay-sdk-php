@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property boolean $SellerProfileOptedIn
- * @property \DTS\eBaySDK\Trading\Types\SupportedSellerProfilesType $SupportedSellerProfiles
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SupportedSellerProfilesType $SupportedSellerProfiles
  */
-class SellerProfilePreferencesType extends \DTS\eBaySDK\Types\BaseType
+class SellerProfilePreferencesType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class SellerProfilePreferencesType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SellerProfileOptedIn'
         ],
         'SupportedSellerProfiles' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SupportedSellerProfilesType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SupportedSellerProfilesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SupportedSellerProfiles'

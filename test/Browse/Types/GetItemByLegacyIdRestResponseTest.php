@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Browse\Types;
+namespace lliyplliuk\eBaySDK\Test\Browse\Types;
 
-use DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestResponse;
+use lliyplliuk\eBaySDK\Browse\Types\GetItemByLegacyIdRestResponse;
 
 class GetItemByLegacyIdRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetItemByLegacyIdRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\GetItemByLegacyIdRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Browse\Types\GetItemByLegacyIdRestResponse', $this->obj);
     }
 
     public function testExtendsItem()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\Item', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Browse\Types\Item', $this->obj);
     }
 }

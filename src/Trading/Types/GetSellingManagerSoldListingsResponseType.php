@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType[] $SaleRecord
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerSoldOrderType[] $SaleRecord
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
-class GetSellingManagerSoldListingsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerSoldListingsResponseType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SaleRecord' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SaleRecord'
         ],
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

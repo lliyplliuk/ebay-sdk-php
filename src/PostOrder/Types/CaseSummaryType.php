@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $buyer
  * @property integer $caseId
- * @property \DTS\eBaySDK\PostOrder\Enums\CaseStatusEnum $caseStatusEnum
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \lliyplliuk\eBaySDK\PostOrder\Enums\CaseStatusEnum $caseStatusEnum
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\Amount $claimAmount
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\DateTime $creationDate
  * @property integer $itemId
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastModifiedDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $respondByDate
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\DateTime $lastModifiedDate
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\DateTime $respondByDate
  * @property string $seller
  * @property integer $transactionId
  */
-class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
+class CaseSummaryType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -48,13 +48,13 @@ class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'caseStatusEnum'
         ],
         'claimAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'claimAmount'
         ],
         'creationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'
@@ -66,13 +66,13 @@ class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'itemId'
         ],
         'lastModifiedDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lastModifiedDate'
         ],
         'respondByDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'respondByDate'

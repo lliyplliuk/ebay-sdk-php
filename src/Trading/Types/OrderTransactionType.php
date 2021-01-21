@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OrderType $Order
- * @property \DTS\eBaySDK\Trading\Types\TransactionType $Transaction
+ * @property \lliyplliuk\eBaySDK\Trading\Types\OrderType $Order
+ * @property \lliyplliuk\eBaySDK\Trading\Types\TransactionType $Transaction
  */
-class OrderTransactionType extends \DTS\eBaySDK\Types\BaseType
+class OrderTransactionType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Order' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\OrderType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\OrderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Order'
         ],
         'Transaction' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TransactionType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\TransactionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Transaction'

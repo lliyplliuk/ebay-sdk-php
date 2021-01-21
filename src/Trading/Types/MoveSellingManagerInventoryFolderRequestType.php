@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $FolderID
  * @property integer $NewParentFolderID
  */
-class MoveSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class MoveSellingManagerInventoryFolderRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

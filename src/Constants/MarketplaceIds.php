@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK\Constants;
+namespace lliyplliuk\eBaySDK\Constants;
 
 /**
  * Constants for specifing an eBay marketplace ID.

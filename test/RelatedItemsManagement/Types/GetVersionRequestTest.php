@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
+namespace lliyplliuk\eBaySDK\Test\RelatedItemsManagement\Types;
 
-use DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest;
+use lliyplliuk\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest;
 
 class GetVersionRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetVersionRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
     }
 }

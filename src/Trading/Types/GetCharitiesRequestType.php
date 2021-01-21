@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
@@ -18,10 +18,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $CharityRegion
  * @property integer $CharityDomain
  * @property boolean $IncludeDescription
- * @property \DTS\eBaySDK\Trading\Enums\StringMatchCodeType $MatchType
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\StringMatchCodeType $MatchType
  * @property boolean $Featured
  */
-class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetCharitiesRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

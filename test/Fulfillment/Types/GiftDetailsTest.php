@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Types;
+namespace lliyplliuk\eBaySDK\Test\Fulfillment\Types;
 
-use DTS\eBaySDK\Fulfillment\Types\GiftDetails;
+use lliyplliuk\eBaySDK\Fulfillment\Types\GiftDetails;
 
 class GiftDetailsTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GiftDetailsTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\GiftDetails', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Fulfillment\Types\GiftDetails', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $content
- * @property \DTS\eBaySDK\PostOrder\Enums\LanguageEnum $language
+ * @property \lliyplliuk\eBaySDK\PostOrder\Enums\LanguageEnum $language
  * @property string $translatedFromContent
- * @property \DTS\eBaySDK\PostOrder\Enums\LanguageEnum $translatedFromLanguage
+ * @property \lliyplliuk\eBaySDK\PostOrder\Enums\LanguageEnum $translatedFromLanguage
  */
-class Text extends \DTS\eBaySDK\Types\BaseType
+class Text extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

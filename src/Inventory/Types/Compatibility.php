@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace lliyplliuk\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\CompatibleProduct[] $compatibleProducts
+ * @property \lliyplliuk\eBaySDK\Inventory\Types\CompatibleProduct[] $compatibleProducts
  * @property string $sku
  */
-class Compatibility extends \DTS\eBaySDK\Types\BaseType
+class Compatibility extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'compatibleProducts' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\CompatibleProduct',
+            'type' => 'lliyplliuk\eBaySDK\Inventory\Types\CompatibleProduct',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'compatibleProducts'

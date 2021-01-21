@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK;
+namespace lliyplliuk\eBaySDK;
 
 /**
  * @internal Resolves a resource uri.

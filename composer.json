@@ -35,7 +35,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DTS\\eBaySDK\\": "src/"
+      "lliyplliuk\\eBaySDK\\": "src/"
     },
     "files": [
       "src/functions.php"
@@ -43,7 +43,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "DTS\\eBaySDK\\Test\\": "test/"
+      "lliyplliuk\\eBaySDK\\Test\\": "test/"
     },
     "classmap": [
       "build/"

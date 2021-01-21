@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace lliyplliuk\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $changeRequestId
- * @property \DTS\eBaySDK\Catalog\Enums\ChangeRequestStatus $changeRequestStatus
- * @property \DTS\eBaySDK\Catalog\Enums\ChangeRequestType $changeRequestType
+ * @property \lliyplliuk\eBaySDK\Catalog\Enums\ChangeRequestStatus $changeRequestStatus
+ * @property \lliyplliuk\eBaySDK\Catalog\Enums\ChangeRequestType $changeRequestType
  * @property string $creationDate
  * @property string $expectedCompletionDate
- * @property \DTS\eBaySDK\Catalog\Types\ProcessResolution $processResolution
+ * @property \lliyplliuk\eBaySDK\Catalog\Types\ProcessResolution $processResolution
  * @property string $processStatusMessage
  * @property string $reasonForChangeRequest
  * @property string $referenceId
- * @property \DTS\eBaySDK\Catalog\Enums\ReferenceType $referenceType
+ * @property \lliyplliuk\eBaySDK\Catalog\Enums\ReferenceType $referenceType
  * @property string $resolutionDate
- * @property \DTS\eBaySDK\Catalog\Types\SuggestedProduct $suggestedProduct
+ * @property \lliyplliuk\eBaySDK\Catalog\Types\SuggestedProduct $suggestedProduct
  */
-class ChangeRequest extends \DTS\eBaySDK\Types\BaseType
+class ChangeRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -62,7 +62,7 @@ class ChangeRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'expectedCompletionDate'
         ],
         'processResolution' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProcessResolution',
+            'type' => 'lliyplliuk\eBaySDK\Catalog\Types\ProcessResolution',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'processResolution'
@@ -98,7 +98,7 @@ class ChangeRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'resolutionDate'
         ],
         'suggestedProduct' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\SuggestedProduct',
+            'type' => 'lliyplliuk\eBaySDK\Catalog\Types\SuggestedProduct',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'suggestedProduct'

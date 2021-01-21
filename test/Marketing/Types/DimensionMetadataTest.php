@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\DimensionMetadata;
+use lliyplliuk\eBaySDK\Marketing\Types\DimensionMetadata;
 
 class DimensionMetadataTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DimensionMetadataTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\DimensionMetadata', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Marketing\Types\DimensionMetadata', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

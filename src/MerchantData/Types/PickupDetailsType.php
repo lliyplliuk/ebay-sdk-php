@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\PickupOptionsType[] $PickupOptions
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\PickupOptionsType[] $PickupOptions
  */
-class PickupDetailsType extends \DTS\eBaySDK\Types\BaseType
+class PickupDetailsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'PickupOptions' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PickupOptionsType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\PickupOptionsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'PickupOptions'

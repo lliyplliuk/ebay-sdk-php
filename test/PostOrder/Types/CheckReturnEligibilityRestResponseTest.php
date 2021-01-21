@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse;
+use lliyplliuk\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse;
 
 class CheckReturnEligibilityRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CheckReturnEligibilityRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\CheckReturnEligibilityRestResponse', $this->obj);
     }
 
     public function testExtendsCheckEligibilityResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckEligibilityResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\CheckEligibilityResponse', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Taxonomy\Types;
+namespace lliyplliuk\eBaySDK\Test\Taxonomy\Types;
 
-use DTS\eBaySDK\Taxonomy\Types\CategorySubtree;
+use lliyplliuk\eBaySDK\Taxonomy\Types\CategorySubtree;
 
 class CategorySubtreeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CategorySubtreeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\CategorySubtree', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Taxonomy\Types\CategorySubtree', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

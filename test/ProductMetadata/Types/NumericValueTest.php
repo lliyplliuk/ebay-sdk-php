@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Types;
+namespace lliyplliuk\eBaySDK\Test\ProductMetadata\Types;
 
-use DTS\eBaySDK\ProductMetadata\Types\NumericValue;
+use lliyplliuk\eBaySDK\ProductMetadata\Types\NumericValue;
 
 class NumericValueTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class NumericValueTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\NumericValue', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\ProductMetadata\Types\NumericValue', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property \DateTime $HardExpirationWarning
  * @property string $Ack
  * @property string $Version
- * @property \DTS\eBaySDK\MerchantData\Types\ErrorType[] $Errors
- * @property \DTS\eBaySDK\MerchantData\Types\OrderArrayType $OrderArray
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\ErrorType[] $Errors
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\OrderArrayType $OrderArray
  */
-class OrderReportResponseType extends \DTS\eBaySDK\Types\BaseType
+class OrderReportResponseType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,13 +43,13 @@ class OrderReportResponseType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Version'
         ],
         'Errors' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ErrorType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Errors'
         ],
         'OrderArray' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\OrderArrayType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\OrderArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderArray'

@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace lliyplliuk\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Types\RepeatableType;
+use lliyplliuk\eBaySDK\Types\RepeatableType;
 
 class RepeatableTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,7 +14,7 @@ class RepeatableTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\RepeatableType', $this->obj);
     }
 
     public function testExtendsArrayAccess()
@@ -63,7 +63,7 @@ class RepeatableTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testSettingInvalidType()
     {
-        $this->setExpectedException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for . Expected string but got integer');
+        $this->setExpectedException('\lliyplliuk\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for . Expected string but got integer');
 
         $this->obj[] = 123;
     }

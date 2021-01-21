@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace lliyplliuk\eBaySDK\Order\Types;
 
 /**
  *
  * @property string $accountHolderName
- * @property \DTS\eBaySDK\Order\Types\BillingAddress $billingAddress
+ * @property \lliyplliuk\eBaySDK\Order\Types\BillingAddress $billingAddress
  * @property string $brand
  * @property string $cardNumber
  * @property string $cvvNumber
  * @property integer $expireMonth
  * @property integer $expireYear
  */
-class CreditCard extends \DTS\eBaySDK\Types\BaseType
+class CreditCard extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,7 +33,7 @@ class CreditCard extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'accountHolderName'
         ],
         'billingAddress' => [
-            'type' => 'DTS\eBaySDK\Order\Types\BillingAddress',
+            'type' => 'lliyplliuk\eBaySDK\Order\Types\BillingAddress',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'billingAddress'

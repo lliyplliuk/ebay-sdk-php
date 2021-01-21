@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Feedback\Types;
+namespace lliyplliuk\eBaySDK\Feedback\Types;
 
 /**
  *
  * @property string $jobId
  */
-class GetDSRSummaryRequest extends \DTS\eBaySDK\Feedback\Types\BaseServiceRequest
+class GetDSRSummaryRequest extends \lliyplliuk\eBaySDK\Feedback\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

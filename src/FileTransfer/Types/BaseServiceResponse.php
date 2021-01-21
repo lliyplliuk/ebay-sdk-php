@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\FileTransfer\Types;
+namespace lliyplliuk\eBaySDK\FileTransfer\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\FileTransfer\Enums\AckValue $ack
- * @property \DTS\eBaySDK\FileTransfer\Types\ErrorMessage $errorMessage
+ * @property \lliyplliuk\eBaySDK\FileTransfer\Enums\AckValue $ack
+ * @property \lliyplliuk\eBaySDK\FileTransfer\Types\ErrorMessage $errorMessage
  * @property string $version
  * @property \DateTime $timestamp
  */
-class BaseServiceResponse extends \DTS\eBaySDK\Types\BaseType
+class BaseServiceResponse extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class BaseServiceResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ack'
         ],
         'errorMessage' => [
-            'type' => 'DTS\eBaySDK\FileTransfer\Types\ErrorMessage',
+            'type' => 'lliyplliuk\eBaySDK\FileTransfer\Types\ErrorMessage',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'errorMessage'

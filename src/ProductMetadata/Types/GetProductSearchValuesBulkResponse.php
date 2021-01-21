@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace lliyplliuk\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  */
-class GetProductSearchValuesBulkResponse extends \DTS\eBaySDK\ProductMetadata\Types\GetProductSearchValuesResponse
+class GetProductSearchValuesBulkResponse extends \lliyplliuk\eBaySDK\ProductMetadata\Types\GetProductSearchValuesResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Enums;
+namespace lliyplliuk\eBaySDK\ReturnManagement\Enums;
 
 class NotificationEventNameType
 {

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\StoreCategoryType[] $categories
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\StoreCategoryType[] $categories
  */
-class GetStoreCategoryResponse extends \DTS\eBaySDK\Types\BaseType
+class GetStoreCategoryResponse extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categories' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\StoreCategoryType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\StoreCategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categories'

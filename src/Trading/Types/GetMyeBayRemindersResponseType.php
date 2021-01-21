@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\RemindersType $BuyingReminders
- * @property \DTS\eBaySDK\Trading\Types\RemindersType $SellingReminders
+ * @property \lliyplliuk\eBaySDK\Trading\Types\RemindersType $BuyingReminders
+ * @property \lliyplliuk\eBaySDK\Trading\Types\RemindersType $SellingReminders
  */
-class GetMyeBayRemindersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMyeBayRemindersResponseType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BuyingReminders' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RemindersType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\RemindersType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyingReminders'
         ],
         'SellingReminders' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RemindersType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\RemindersType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingReminders'

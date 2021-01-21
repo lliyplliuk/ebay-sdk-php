@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\HalfFinding\Enums;
+namespace lliyplliuk\eBaySDK\Test\HalfFinding\Enums;
 
-use DTS\eBaySDK\HalfFinding\Enums\ProductIDCodeType;
+use lliyplliuk\eBaySDK\HalfFinding\Enums\ProductIDCodeType;
 
 class ProductIDCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ProductIDCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\ProductIDCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\HalfFinding\Enums\ProductIDCodeType', $this->obj);
     }
 }

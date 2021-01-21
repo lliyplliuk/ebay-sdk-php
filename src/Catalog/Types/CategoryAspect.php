@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace lliyplliuk\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $aspectHelpText
- * @property \DTS\eBaySDK\Catalog\Types\ProductAspectConstraint[] $constraint
+ * @property \lliyplliuk\eBaySDK\Catalog\Types\ProductAspectConstraint[] $constraint
  * @property string $name
- * @property \DTS\eBaySDK\Catalog\Types\CategoryAspectValue[] $values
+ * @property \lliyplliuk\eBaySDK\Catalog\Types\CategoryAspectValue[] $values
  */
-class CategoryAspect extends \DTS\eBaySDK\Types\BaseType
+class CategoryAspect extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class CategoryAspect extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'aspectHelpText'
         ],
         'constraint' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
+            'type' => 'lliyplliuk\eBaySDK\Catalog\Types\ProductAspectConstraint',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'constraint'
@@ -42,7 +42,7 @@ class CategoryAspect extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'name'
         ],
         'values' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\CategoryAspectValue',
+            'type' => 'lliyplliuk\eBaySDK\Catalog\Types\CategoryAspectValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'values'

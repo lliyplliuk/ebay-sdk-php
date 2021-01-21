@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
+namespace lliyplliuk\eBaySDK\Test\BulkDataExchange\Types;
 
-use DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter;
+use lliyplliuk\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter;
 
 class DownloadRequestFilterTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DownloadRequestFilterTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

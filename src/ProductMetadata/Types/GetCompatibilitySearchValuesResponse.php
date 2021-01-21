@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace lliyplliuk\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $metadataVersion
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyValue[] $propertyValues
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue $propertyValuesTree
+ * @property \lliyplliuk\eBaySDK\ProductMetadata\Types\PropertyValue[] $propertyValues
+ * @property \lliyplliuk\eBaySDK\ProductMetadata\Types\PropertyNameValue $propertyValuesTree
  * @property boolean $treeFormat
  */
-class GetCompatibilitySearchValuesResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceResponse
+class GetCompatibilitySearchValuesResponse extends \lliyplliuk\eBaySDK\ProductMetadata\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,13 +30,13 @@ class GetCompatibilitySearchValuesResponse extends \DTS\eBaySDK\ProductMetadata\
             'elementName' => 'metadataVersion'
         ],
         'propertyValues' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyValue',
+            'type' => 'lliyplliuk\eBaySDK\ProductMetadata\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'propertyValues'
         ],
         'propertyValuesTree' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue',
+            'type' => 'lliyplliuk\eBaySDK\ProductMetadata\Types\PropertyNameValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'propertyValuesTree'

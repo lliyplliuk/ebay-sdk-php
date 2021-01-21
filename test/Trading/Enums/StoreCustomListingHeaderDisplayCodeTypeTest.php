@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace lliyplliuk\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType;
+use lliyplliuk\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType;
 
 class StoreCustomListingHeaderDisplayCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class StoreCustomListingHeaderDisplayCodeTypeTest extends \PHPUnit_Framework_Tes
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType', $this->obj);
     }
 }

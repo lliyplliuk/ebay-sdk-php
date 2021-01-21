@@ -8,53 +8,53 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $user
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $otherParty
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType $status
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ItemType $item
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $user
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $otherParty
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType $status
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\ItemType $item
  * @property integer $caseQuantity
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $caseAmount
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\Amount $caseAmount
  * @property \DateTime $respondByDate
  * @property \DateTime $creationDate
  * @property \DateTime $lastModifiedDate
  */
-class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
+class CaseSummaryType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseId'
         ],
         'user' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'user'
         ],
         'otherParty' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'otherParty'
         ],
         'status' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'status'
         ],
         'item' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemType',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'item'
@@ -66,7 +66,7 @@ class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'caseQuantity'
         ],
         'caseAmount' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseAmount'

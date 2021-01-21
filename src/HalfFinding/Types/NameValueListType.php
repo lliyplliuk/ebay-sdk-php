@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace lliyplliuk\eBaySDK\HalfFinding\Types;
 
 /**
  *
  * @property string $name
  * @property string[] $value
  */
-class NameValueListType extends \DTS\eBaySDK\Types\BaseType
+class NameValueListType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

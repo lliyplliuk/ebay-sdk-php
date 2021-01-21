@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\SetSellerReturnPreferenceRequest;
+use lliyplliuk\eBaySDK\PostOrder\Types\SetSellerReturnPreferenceRequest;
 
 class SetSellerReturnPreferenceRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SetSellerReturnPreferenceRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\SetSellerReturnPreferenceRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\SetSellerReturnPreferenceRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

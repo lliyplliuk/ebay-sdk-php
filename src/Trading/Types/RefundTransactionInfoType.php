@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType $RefundStatus
- * @property \DTS\eBaySDK\Trading\Enums\RefundSourceTypeCodeType $RefundType
- * @property \DTS\eBaySDK\Trading\Types\UserIdentityType $RefundTo
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType $RefundStatus
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\RefundSourceTypeCodeType $RefundType
+ * @property \lliyplliuk\eBaySDK\Trading\Types\UserIdentityType $RefundTo
  * @property \DateTime $RefundTime
- * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
- * @property \DTS\eBaySDK\Trading\Types\TransactionReferenceType $ReferenceID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $RefundAmount
+ * @property \lliyplliuk\eBaySDK\Trading\Types\TransactionReferenceType $ReferenceID
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
  */
-class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
+class RefundTransactionInfoType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'RefundType'
         ],
         'RefundTo' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserIdentityType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\UserIdentityType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundTo'
@@ -51,19 +51,19 @@ class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'RefundTime'
         ],
         'RefundAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'
         ],
         'ReferenceID' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TransactionReferenceType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\TransactionReferenceType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReferenceID'
         ],
         'FeeOrCreditAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeOrCreditAmount'

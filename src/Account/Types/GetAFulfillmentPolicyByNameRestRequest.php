@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace lliyplliuk\eBaySDK\Account\Types;
 
 /**
  *
  * @property string $marketplace_id
  * @property string $name
  */
-class GetAFulfillmentPolicyByNameRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetAFulfillmentPolicyByNameRestRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

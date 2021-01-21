@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Feedback\Types;
+namespace lliyplliuk\eBaySDK\Test\Feedback\Types;
 
-use DTS\eBaySDK\Feedback\Types\BaseServiceResponse;
+use lliyplliuk\eBaySDK\Feedback\Types\BaseServiceResponse;
 
 class BaseServiceResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BaseServiceResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\BaseServiceResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Feedback\Types\BaseServiceResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

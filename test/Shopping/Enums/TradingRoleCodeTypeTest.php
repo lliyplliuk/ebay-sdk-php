@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Enums;
+namespace lliyplliuk\eBaySDK\Test\Shopping\Enums;
 
-use DTS\eBaySDK\Shopping\Enums\TradingRoleCodeType;
+use lliyplliuk\eBaySDK\Shopping\Enums\TradingRoleCodeType;
 
 class TradingRoleCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class TradingRoleCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\TradingRoleCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Shopping\Enums\TradingRoleCodeType', $this->obj);
     }
 }

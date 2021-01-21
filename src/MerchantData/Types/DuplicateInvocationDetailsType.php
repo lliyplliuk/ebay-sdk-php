@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $DuplicateInvocationID
- * @property \DTS\eBaySDK\MerchantData\Enums\InvocationStatusType $Status
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\InvocationStatusType $Status
  * @property string $InvocationTrackingID
  */
-class DuplicateInvocationDetailsType extends \DTS\eBaySDK\Types\BaseType
+class DuplicateInvocationDetailsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace lliyplliuk\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\Product[] $products
- * @property \DTS\eBaySDK\Product\Types\PaginationOutput $paginationOutput
+ * @property \lliyplliuk\eBaySDK\Product\Types\Product[] $products
+ * @property \lliyplliuk\eBaySDK\Product\Types\PaginationOutput $paginationOutput
  * @property string $invocationId
  */
-class ProductResponse extends \DTS\eBaySDK\Types\BaseType
+class ProductResponse extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'products' => [
-            'type' => 'DTS\eBaySDK\Product\Types\Product',
+            'type' => 'lliyplliuk\eBaySDK\Product\Types\Product',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'products'
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PaginationOutput',
+            'type' => 'lliyplliuk\eBaySDK\Product\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'

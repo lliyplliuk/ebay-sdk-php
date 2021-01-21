@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace lliyplliuk\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  */
-class ProvideSellerInfoResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class ProvideSellerInfoResponse extends \lliyplliuk\eBaySDK\ReturnManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

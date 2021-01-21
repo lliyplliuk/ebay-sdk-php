@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK\Exceptions;
+namespace lliyplliuk\eBaySDK\Exceptions;
 
 /**
  * A property was get/set that doesn't exist.

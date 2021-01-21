@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property boolean $autoSelectFutureInventory
- * @property \DTS\eBaySDK\Marketing\Enums\CriterionTypeEnum $criterionType
- * @property \DTS\eBaySDK\Marketing\Types\SelectionRule[] $selectionRules
+ * @property \lliyplliuk\eBaySDK\Marketing\Enums\CriterionTypeEnum $criterionType
+ * @property \lliyplliuk\eBaySDK\Marketing\Types\SelectionRule[] $selectionRules
  */
-class CampaignCriterion extends \DTS\eBaySDK\Types\BaseType
+class CampaignCriterion extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class CampaignCriterion extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'criterionType'
         ],
         'selectionRules' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\SelectionRule',
+            'type' => 'lliyplliuk\eBaySDK\Marketing\Types\SelectionRule',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'selectionRules'

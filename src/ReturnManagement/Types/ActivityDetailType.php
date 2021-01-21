@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace lliyplliuk\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  */
-class ActivityDetailType extends \DTS\eBaySDK\ReturnManagement\Types\EnumerationDetailType
+class ActivityDetailType extends \lliyplliuk\eBaySDK\ReturnManagement\Types\EnumerationDetailType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace lliyplliuk\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType;
+use lliyplliuk\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType;
 
 class SellingManagerAutoRelistTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellingManagerAutoRelistTypeCodeTypeTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType', $this->obj);
     }
 }

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Taxonomy\Enums;
+namespace lliyplliuk\eBaySDK\Taxonomy\Enums;
 
 class ItemToAspectCardinalityEnum
 {

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Types;
+namespace lliyplliuk\eBaySDK\Test\Fulfillment\Types;
 
-use DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse;
+use lliyplliuk\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse;
 
 class CreateAShippingFulfillmentRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateAShippingFulfillmentRestResponseTest extends \PHPUnit_Framework_Test
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

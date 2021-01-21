@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace lliyplliuk\eBaySDK\Test\Mocks;
 
-use DTS\eBaySDK\HttpHeadersTrait;
+use lliyplliuk\eBaySDK\HttpHeadersTrait;
 
 class HttpHeaders
 {

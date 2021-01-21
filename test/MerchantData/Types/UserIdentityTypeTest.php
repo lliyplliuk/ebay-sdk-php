@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\UserIdentityType;
+use lliyplliuk\eBaySDK\MerchantData\Types\UserIdentityType;
 
 class UserIdentityTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UserIdentityTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\UserIdentityType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\MerchantData\Types\UserIdentityType', $this->obj);
     }
 
     public function testExtendsStringType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\StringType', $this->obj);
     }
 }

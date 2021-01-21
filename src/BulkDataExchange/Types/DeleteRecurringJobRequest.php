@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace lliyplliuk\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property string $recurringJobId
  */
-class DeleteRecurringJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class DeleteRecurringJobRequest extends \lliyplliuk\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Order\Enums;
+namespace lliyplliuk\eBaySDK\Test\Order\Enums;
 
-use DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum;
+use lliyplliuk\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum;
 
 class PurchaseOrderPaymentStatusEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class PurchaseOrderPaymentStatusEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum', $this->obj);
     }
 }

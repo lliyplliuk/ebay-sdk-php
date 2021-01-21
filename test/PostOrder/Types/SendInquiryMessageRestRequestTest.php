@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest;
+use lliyplliuk\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest;
 
 class SendInquiryMessageRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SendInquiryMessageRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\SendInquiryMessageRestRequest', $this->obj);
     }
 
     public function testExtendsSendMessageRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\SendMessageRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\PostOrder\Types\SendMessageRequest', $this->obj);
     }
 }

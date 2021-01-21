@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace lliyplliuk\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\Type $type
- * @property \DTS\eBaySDK\HalfFinding\Types\Amount $cost
+ * @property \lliyplliuk\eBaySDK\HalfFinding\Enums\Type $type
+ * @property \lliyplliuk\eBaySDK\HalfFinding\Types\Amount $cost
  * @property boolean $expeditedService
  */
-class ShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
+class ShippingServiceOptionsType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class ShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'type'
         ],
         'cost' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
+            'type' => 'lliyplliuk\eBaySDK\HalfFinding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cost'

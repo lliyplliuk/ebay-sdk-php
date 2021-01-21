@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace lliyplliuk\eBaySDK\Test\Mocks;
 
-class BooleanType extends \DTS\eBaySDK\Types\BooleanType
+class BooleanType extends \lliyplliuk\eBaySDK\Types\BooleanType
 {
     private static $propertyTypes = [];
 

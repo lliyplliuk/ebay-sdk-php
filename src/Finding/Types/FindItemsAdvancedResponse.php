@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace lliyplliuk\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\CategoryHistogramContainer $categoryHistogramContainer
- * @property \DTS\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
- * @property \DTS\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
+ * @property \lliyplliuk\eBaySDK\Finding\Types\CategoryHistogramContainer $categoryHistogramContainer
+ * @property \lliyplliuk\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
+ * @property \lliyplliuk\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
  */
-class FindItemsAdvancedResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse
+class FindItemsAdvancedResponse extends \lliyplliuk\eBaySDK\Finding\Types\BaseFindingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogramContainer',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\CategoryHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'categoryHistogramContainer'
         ],
         'aspectHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectHistogramContainer',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\AspectHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'aspectHistogramContainer'
         ],
         'conditionHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ConditionHistogramContainer',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\ConditionHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'conditionHistogramContainer'

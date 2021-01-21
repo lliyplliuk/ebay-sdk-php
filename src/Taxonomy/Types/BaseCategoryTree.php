@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Taxonomy\Types;
+namespace lliyplliuk\eBaySDK\Taxonomy\Types;
 
 /**
  *
  * @property string $categoryTreeId
  * @property string $categoryTreeVersion
  */
-class BaseCategoryTree extends \DTS\eBaySDK\Types\BaseType
+class BaseCategoryTree extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

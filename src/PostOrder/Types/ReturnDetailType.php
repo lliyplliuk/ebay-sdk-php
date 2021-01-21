@@ -8,35 +8,35 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $buyerAddress
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ReturnAddressType $buyerAddress
  * @property string $buyerLoginName
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnCloseInfoType $closeInfo
- * @property \DTS\eBaySDK\PostOrder\Types\DispositionRuleDetailType[] $dispositionRuleDetail
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnFileType[] $files
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnHoldInfoType $holdInfo
- * @property \DTS\eBaySDK\PostOrder\Types\ItemDetailType $itemDetail
- * @property \DTS\eBaySDK\PostOrder\Enums\MarketplaceIdEnum $marketplaceId
- * @property \DTS\eBaySDK\PostOrder\Types\MoneyMovementDetailType[] $moneyMovementInfo
- * @property \DTS\eBaySDK\PostOrder\Types\RefundInfoType $refundInfo
- * @property \DTS\eBaySDK\PostOrder\Types\ShipmentType $replacementShipmentInfo
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnResponseHistoryType[] $responseHistory
- * @property \DTS\eBaySDK\PostOrder\Types\ShipmentType $returnShipmentInfo
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ReturnCloseInfoType $closeInfo
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\DispositionRuleDetailType[] $dispositionRuleDetail
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ReturnFileType[] $files
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ReturnHoldInfoType $holdInfo
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ItemDetailType $itemDetail
+ * @property \lliyplliuk\eBaySDK\PostOrder\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\MoneyMovementDetailType[] $moneyMovementInfo
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\RefundInfoType $refundInfo
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ShipmentType $replacementShipmentInfo
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ReturnResponseHistoryType[] $responseHistory
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ShipmentType $returnShipmentInfo
  * @property string $RMANumber
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $sellerAddress
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ReturnAddressType $sellerAddress
  * @property string $sellerLoginName
  */
-class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
+class ReturnDetailType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'buyerAddress' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerAddress'
@@ -48,31 +48,31 @@ class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'buyerLoginName'
         ],
         'closeInfo' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnCloseInfoType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ReturnCloseInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'closeInfo'
         ],
         'dispositionRuleDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DispositionRuleDetailType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\DispositionRuleDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'dispositionRuleDetail'
         ],
         'files' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnFileType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ReturnFileType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'files'
         ],
         'holdInfo' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnHoldInfoType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ReturnHoldInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'holdInfo'
         ],
         'itemDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ItemDetailType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ItemDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemDetail'
@@ -84,31 +84,31 @@ class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'marketplaceId'
         ],
         'moneyMovementInfo' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementDetailType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\MoneyMovementDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'moneyMovementInfo'
         ],
         'refundInfo' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundInfoType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\RefundInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundInfo'
         ],
         'replacementShipmentInfo' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ShipmentType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'replacementShipmentInfo'
         ],
         'responseHistory' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnResponseHistoryType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ReturnResponseHistoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'responseHistory'
         ],
         'returnShipmentInfo' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ShipmentType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnShipmentInfo'
@@ -120,7 +120,7 @@ class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'RMANumber'
         ],
         'sellerAddress' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerAddress'

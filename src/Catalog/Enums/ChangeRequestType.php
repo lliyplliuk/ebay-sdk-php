@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Enums;
+namespace lliyplliuk\eBaySDK\Catalog\Enums;
 
 class ChangeRequestType
 {

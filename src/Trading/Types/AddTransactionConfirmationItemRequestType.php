@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $RecipientUserID
  * @property string $VerifyEligibilityOnly
  * @property string $RecipientPostalCode
- * @property \DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType $RecipientRelationType
- * @property \DTS\eBaySDK\Trading\Types\AmountType $NegotiatedPrice
- * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $ListingDuration
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\RecipientRelationCodeType $RecipientRelationType
+ * @property \lliyplliuk\eBaySDK\Trading\Types\AmountType $NegotiatedPrice
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $ListingDuration
  * @property string $ItemID
  * @property string $Comments
  */
-class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddTransactionConfirmationItemRequestType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -52,7 +52,7 @@ class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Typ
             'elementName' => 'RecipientRelationType'
         ],
         'NegotiatedPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NegotiatedPrice'

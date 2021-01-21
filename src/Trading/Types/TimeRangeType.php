@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
  * @property \DateTime $TimeFrom
  * @property \DateTime $TimeTo
  */
-class TimeRangeType extends \DTS\eBaySDK\Types\BaseType
+class TimeRangeType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

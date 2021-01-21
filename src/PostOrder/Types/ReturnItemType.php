@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property integer $returnQuantity
  * @property string $transactionId
  */
-class ReturnItemType extends \DTS\eBaySDK\Types\BaseType
+class ReturnItemType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

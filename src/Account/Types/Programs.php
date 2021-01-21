@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace lliyplliuk\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Program[] $programs
+ * @property \lliyplliuk\eBaySDK\Account\Types\Program[] $programs
  */
-class Programs extends \DTS\eBaySDK\Types\BaseType
+class Programs extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'programs' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Program',
+            'type' => 'lliyplliuk\eBaySDK\Account\Types\Program',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'programs'

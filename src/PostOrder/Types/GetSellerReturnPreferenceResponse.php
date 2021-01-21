@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property boolean $advanceRulesEnabled
- * @property \DTS\eBaySDK\PostOrder\Types\RuleDetailType[] $basicRules
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\RuleDetailType[] $basicRules
  * @property boolean $RMARequired
  * @property integer $versionId
  */
-class GetSellerReturnPreferenceResponse extends \DTS\eBaySDK\Types\BaseType
+class GetSellerReturnPreferenceResponse extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class GetSellerReturnPreferenceResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'advanceRulesEnabled'
         ],
         'basicRules' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\RuleDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'basicRules'

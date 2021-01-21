@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType $SellingManagerTemplateDetailsArray
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType $SellingManagerTemplateDetailsArray
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
  */
-class SellingManagerProductType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerProductType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellingManagerProductDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'
         ],
         'SellingManagerTemplateDetailsArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerTemplateDetailsArray'
         ],
         'SellingManagerProductInventoryStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductInventoryStatus'
         ],
         'SellingManagerProductSpecifics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductSpecifics'

@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $ItemID
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\MerchantData\Types\FeesType $Fees
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
  * @property boolean $VerifyOnly
- * @property \DTS\eBaySDK\MerchantData\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \DTS\eBaySDK\MerchantData\Types\ProductSuggestionsType $ProductSuggestions
- * @property \DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType $ListingRecommendations
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\DiscountReasonCodeType[] $DiscountReason
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\ProductSuggestionsType $ProductSuggestions
+ * @property \lliyplliuk\eBaySDK\MerchantData\Types\ListingRecommendationsType $ListingRecommendations
  */
-class ReviseItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class ReviseItemResponseType extends \lliyplliuk\eBaySDK\MerchantData\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -48,7 +48,7 @@ class ReviseItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractRes
             'elementName' => 'EndTime'
         ],
         'Fees' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\FeesType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -78,13 +78,13 @@ class ReviseItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractRes
             'elementName' => 'DiscountReason'
         ],
         'ProductSuggestions' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ProductSuggestionsType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\ProductSuggestionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProductSuggestions'
         ],
         'ListingRecommendations' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType',
+            'type' => 'lliyplliuk\eBaySDK\MerchantData\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingRecommendations'

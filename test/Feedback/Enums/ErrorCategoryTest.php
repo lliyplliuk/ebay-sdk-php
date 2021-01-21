@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Feedback\Enums;
+namespace lliyplliuk\eBaySDK\Test\Feedback\Enums;
 
-use DTS\eBaySDK\Feedback\Enums\ErrorCategory;
+use lliyplliuk\eBaySDK\Feedback\Enums\ErrorCategory;
 
 class ErrorCategoryTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ErrorCategoryTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Enums\ErrorCategory', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Feedback\Enums\ErrorCategory', $this->obj);
     }
 }

@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType $type
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType $type
  */
-class CharityIDType extends \DTS\eBaySDK\Types\StringType
+class CharityIDType extends \lliyplliuk\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

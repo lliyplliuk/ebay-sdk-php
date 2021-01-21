@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace lliyplliuk\eBaySDK\Browse\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $discountAmount
+ * @property \lliyplliuk\eBaySDK\Browse\Types\ConvertedAmount $discountAmount
  * @property string $discountPercentage
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $originalPrice
+ * @property \lliyplliuk\eBaySDK\Browse\Types\ConvertedAmount $originalPrice
  */
-class MarketingPrice extends \DTS\eBaySDK\Types\BaseType
+class MarketingPrice extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'discountAmount' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
+            'type' => 'lliyplliuk\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountAmount'
@@ -35,7 +35,7 @@ class MarketingPrice extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'discountPercentage'
         ],
         'originalPrice' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
+            'type' => 'lliyplliuk\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'originalPrice'

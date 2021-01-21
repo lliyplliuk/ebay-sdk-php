@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace lliyplliuk\eBaySDK\Browse\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\CommonDescriptions[] $commonDescriptions
- * @property \DTS\eBaySDK\Browse\Types\Item[] $items
+ * @property \lliyplliuk\eBaySDK\Browse\Types\CommonDescriptions[] $commonDescriptions
+ * @property \lliyplliuk\eBaySDK\Browse\Types\Item[] $items
  */
-class Items extends \DTS\eBaySDK\Types\BaseType
+class Items extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'commonDescriptions' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\CommonDescriptions',
+            'type' => 'lliyplliuk\eBaySDK\Browse\Types\CommonDescriptions',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'commonDescriptions'
         ],
         'items' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\Item',
+            'type' => 'lliyplliuk\eBaySDK\Browse\Types\Item',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'items'

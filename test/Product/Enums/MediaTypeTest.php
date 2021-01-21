@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Product\Enums;
+namespace lliyplliuk\eBaySDK\Test\Product\Enums;
 
-use DTS\eBaySDK\Product\Enums\MediaType;
+use lliyplliuk\eBaySDK\Product\Enums\MediaType;
 
 class MediaTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class MediaTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Enums\MediaType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Product\Enums\MediaType', $this->obj);
     }
 }

@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace lliyplliuk\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType $INRStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\SNADCaseStatusType $SNADStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPINRCaseStatusType $EBPINRStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType $EBPSNADStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType $UPIStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType $cancelTransactionStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\ReturnCaseStatusType $returnStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType $PaypalINRStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalSNADCaseStatusType $PaypalSNADStatus
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType $INRStatus
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\SNADCaseStatusType $SNADStatus
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\EBPINRCaseStatusType $EBPINRStatus
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType $EBPSNADStatus
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType $UPIStatus
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType $cancelTransactionStatus
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\ReturnCaseStatusType $returnStatus
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType $PaypalINRStatus
+ * @property \lliyplliuk\eBaySDK\ResolutionCaseManagement\Enums\PaypalSNADCaseStatusType $PaypalSNADStatus
  */
-class CaseStatusType extends \DTS\eBaySDK\Types\BaseType
+class CaseStatusType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

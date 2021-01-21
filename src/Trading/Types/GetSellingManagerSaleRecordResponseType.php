@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
  */
-class GetSellingManagerSaleRecordResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerSaleRecordResponseType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellingManagerSoldOrder' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerSoldOrder'

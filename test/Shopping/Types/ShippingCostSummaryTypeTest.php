@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace lliyplliuk\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType;
+use lliyplliuk\eBaySDK\Shopping\Types\ShippingCostSummaryType;
 
 class ShippingCostSummaryTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ShippingCostSummaryTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Shopping\Types\ShippingCostSummaryType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

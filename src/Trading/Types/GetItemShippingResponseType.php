@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
- * @property \DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType $PickUpInStoreDetails
+ * @property \lliyplliuk\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
+ * @property \lliyplliuk\eBaySDK\Trading\Types\PickupInStoreDetailsType $PickUpInStoreDetails
  */
-class GetItemShippingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetItemShippingResponseType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ShippingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingDetails'
         ],
         'PickUpInStoreDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\PickupInStoreDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickUpInStoreDetails'

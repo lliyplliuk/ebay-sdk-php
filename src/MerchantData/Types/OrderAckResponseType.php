@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $OrderLineItemID
  */
-class OrderAckResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class OrderAckResponseType extends \lliyplliuk\eBaySDK\MerchantData\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

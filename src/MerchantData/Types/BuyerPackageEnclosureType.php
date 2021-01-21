@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace lliyplliuk\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType $type
+ * @property \lliyplliuk\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType $type
  */
-class BuyerPackageEnclosureType extends \DTS\eBaySDK\Types\StringType
+class BuyerPackageEnclosureType extends \lliyplliuk\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

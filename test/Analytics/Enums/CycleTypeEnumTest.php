@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Analytics\Enums;
+namespace lliyplliuk\eBaySDK\Test\Analytics\Enums;
 
-use DTS\eBaySDK\Analytics\Enums\CycleTypeEnum;
+use lliyplliuk\eBaySDK\Analytics\Enums\CycleTypeEnum;
 
 class CycleTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CycleTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Enums\CycleTypeEnum', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Analytics\Enums\CycleTypeEnum', $this->obj);
     }
 }

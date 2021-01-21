@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace lliyplliuk\eBaySDK\Finding\Types;
 
 /**
  *
@@ -16,38 +16,38 @@ namespace DTS\eBaySDK\Finding\Types;
  * @property string $title
  * @property string $globalId
  * @property string $subtitle
- * @property \DTS\eBaySDK\Finding\Types\Category $primaryCategory
- * @property \DTS\eBaySDK\Finding\Types\Category $secondaryCategory
+ * @property \lliyplliuk\eBaySDK\Finding\Types\Category $primaryCategory
+ * @property \lliyplliuk\eBaySDK\Finding\Types\Category $secondaryCategory
  * @property string $galleryURL
- * @property \DTS\eBaySDK\Finding\Types\GalleryInfoContainer $galleryInfoContainer
+ * @property \lliyplliuk\eBaySDK\Finding\Types\GalleryInfoContainer $galleryInfoContainer
  * @property string $viewItemURL
  * @property string $charityId
- * @property \DTS\eBaySDK\Finding\Types\ProductId $productId
+ * @property \lliyplliuk\eBaySDK\Finding\Types\ProductId $productId
  * @property string[] $paymentMethod
  * @property boolean $autoPay
  * @property string $postalCode
  * @property string $location
  * @property string $country
- * @property \DTS\eBaySDK\Finding\Types\Storefront $storeInfo
- * @property \DTS\eBaySDK\Finding\Types\SellerInfo $sellerInfo
- * @property \DTS\eBaySDK\Finding\Types\ShippingInfo $shippingInfo
- * @property \DTS\eBaySDK\Finding\Types\SellingStatus $sellingStatus
- * @property \DTS\eBaySDK\Finding\Types\ListingInfo $listingInfo
+ * @property \lliyplliuk\eBaySDK\Finding\Types\Storefront $storeInfo
+ * @property \lliyplliuk\eBaySDK\Finding\Types\SellerInfo $sellerInfo
+ * @property \lliyplliuk\eBaySDK\Finding\Types\ShippingInfo $shippingInfo
+ * @property \lliyplliuk\eBaySDK\Finding\Types\SellingStatus $sellingStatus
+ * @property \lliyplliuk\eBaySDK\Finding\Types\ListingInfo $listingInfo
  * @property boolean $returnsAccepted
  * @property string[] $galleryPlusPictureURL
  * @property string $compatibility
- * @property \DTS\eBaySDK\Finding\Types\Distance $distance
- * @property \DTS\eBaySDK\Finding\Types\Condition $condition
+ * @property \lliyplliuk\eBaySDK\Finding\Types\Distance $distance
+ * @property \lliyplliuk\eBaySDK\Finding\Types\Condition $condition
  * @property boolean $isMultiVariationListing
- * @property \DTS\eBaySDK\Finding\Types\DiscountPriceInfo $discountPriceInfo
+ * @property \lliyplliuk\eBaySDK\Finding\Types\DiscountPriceInfo $discountPriceInfo
  * @property string $pictureURLSuperSize
  * @property string $pictureURLLarge
- * @property \DTS\eBaySDK\Finding\Types\UnitPriceInfo $unitPrice
- * @property \DTS\eBaySDK\Finding\Types\ItemAttribute[] $attribute
+ * @property \lliyplliuk\eBaySDK\Finding\Types\UnitPriceInfo $unitPrice
+ * @property \lliyplliuk\eBaySDK\Finding\Types\ItemAttribute[] $attribute
  * @property boolean $topRatedListing
  * @property string[] $eekStatus
  */
-class SearchItem extends \DTS\eBaySDK\Types\BaseType
+class SearchItem extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -78,13 +78,13 @@ class SearchItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'subtitle'
         ],
         'primaryCategory' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Category',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\Category',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'primaryCategory'
         ],
         'secondaryCategory' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Category',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\Category',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'secondaryCategory'
@@ -96,7 +96,7 @@ class SearchItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'galleryURL'
         ],
         'galleryInfoContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\GalleryInfoContainer',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\GalleryInfoContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'galleryInfoContainer'
@@ -114,7 +114,7 @@ class SearchItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'charityId'
         ],
         'productId' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ProductId',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\ProductId',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productId'
@@ -150,31 +150,31 @@ class SearchItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'country'
         ],
         'storeInfo' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Storefront',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\Storefront',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'storeInfo'
         ],
         'sellerInfo' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\SellerInfo',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\SellerInfo',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerInfo'
         ],
         'shippingInfo' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ShippingInfo',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\ShippingInfo',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingInfo'
         ],
         'sellingStatus' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\SellingStatus',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\SellingStatus',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellingStatus'
         ],
         'listingInfo' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ListingInfo',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\ListingInfo',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'listingInfo'
@@ -198,13 +198,13 @@ class SearchItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'compatibility'
         ],
         'distance' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Distance',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\Distance',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'distance'
         ],
         'condition' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Condition',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\Condition',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'condition'
@@ -216,7 +216,7 @@ class SearchItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'isMultiVariationListing'
         ],
         'discountPriceInfo' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\DiscountPriceInfo',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\DiscountPriceInfo',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountPriceInfo'
@@ -234,13 +234,13 @@ class SearchItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'pictureURLLarge'
         ],
         'unitPrice' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\UnitPriceInfo',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\UnitPriceInfo',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'unitPrice'
         ],
         'attribute' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ItemAttribute',
+            'type' => 'lliyplliuk\eBaySDK\Finding\Types\ItemAttribute',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'attribute'

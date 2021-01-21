@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace lliyplliuk\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnStatusInputType[] $ReturnStatus
+ * @property \lliyplliuk\eBaySDK\ReturnManagement\Enums\ReturnStatusInputType[] $ReturnStatus
  */
-class ReturnStatusFilterType extends \DTS\eBaySDK\Types\BaseType
+class ReturnStatusFilterType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

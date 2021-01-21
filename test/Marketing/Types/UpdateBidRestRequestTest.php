@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace lliyplliuk\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest;
+use lliyplliuk\eBaySDK\Marketing\Types\UpdateBidRestRequest;
 
 class UpdateBidRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateBidRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\UpdateBidRestRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Marketing\Types\UpdateBidRestRequest', $this->obj);
     }
 
     public function testExtendsUpdateBidPercentageRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\UpdateBidPercentageRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Marketing\Types\UpdateBidPercentageRequest', $this->obj);
     }
 }

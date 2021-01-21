@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\FileTransfer\Services;
+namespace lliyplliuk\eBaySDK\Test\FileTransfer\Services;
 
-use DTS\eBaySDK\FileTransfer\Services\FileTransferBaseService;
-use DTS\eBaySDK\FileTransfer\Services\FileTransferService;
-use DTS\eBaySDK\Test\FileTransfer\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use lliyplliuk\eBaySDK\FileTransfer\Services\FileTransferBaseService;
+use lliyplliuk\eBaySDK\FileTransfer\Services\FileTransferService;
+use lliyplliuk\eBaySDK\Test\FileTransfer\Mocks\Service;
+use lliyplliuk\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

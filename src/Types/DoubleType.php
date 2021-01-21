@@ -1,12 +1,12 @@
 <?php
-namespace DTS\eBaySDK\Types;
+namespace lliyplliuk\eBaySDK\Types;
 
 /**
  * Base class for objects that correspond to double types in the XML.
  *
  * @property double $value
  */
-class DoubleType extends \DTS\eBaySDK\Types\BaseType
+class DoubleType extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

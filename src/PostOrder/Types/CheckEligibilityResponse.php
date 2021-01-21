@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType $eligibilityResultPerItem
+ * @property \lliyplliuk\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType $eligibilityResultPerItem
  */
-class CheckEligibilityResponse extends \DTS\eBaySDK\Types\BaseType
+class CheckEligibilityResponse extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'eligibilityResultPerItem' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
+            'type' => 'lliyplliuk\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eligibilityResultPerItem'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace lliyplliuk\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\GetShippingRateTablesRestResponse;
+use lliyplliuk\eBaySDK\Account\Types\GetShippingRateTablesRestResponse;
 
 class GetShippingRateTablesRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetShippingRateTablesRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetShippingRateTablesRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Account\Types\GetShippingRateTablesRestResponse', $this->obj);
     }
 
     public function testExtendsRateTableResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\RateTableResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Account\Types\RateTableResponse', $this->obj);
     }
 }

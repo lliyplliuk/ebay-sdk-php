@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\HalfFinding\Types;
+namespace lliyplliuk\eBaySDK\Test\HalfFinding\Types;
 
-use DTS\eBaySDK\HalfFinding\Types\Amount;
+use lliyplliuk\eBaySDK\HalfFinding\Types\Amount;
 
 class AmountTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AmountTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\Amount', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\HalfFinding\Types\Amount', $this->obj);
     }
 
     public function testExtendsDoubleType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\DoubleType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\DoubleType', $this->obj);
     }
 }

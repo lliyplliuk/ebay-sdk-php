@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType $SellingManagerTemplateDetailsArray
+ * @property \lliyplliuk\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType $SellingManagerTemplateDetailsArray
  */
-class GetSellingManagerTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerTemplatesResponseType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellingManagerTemplateDetailsArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerTemplateDetailsArray'

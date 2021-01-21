@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace lliyplliuk\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ActivityOptionType[] $activityOptions
+ * @property \lliyplliuk\eBaySDK\ReturnManagement\Enums\ActivityOptionType[] $activityOptions
  */
-class GetActivityOptionsResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class GetActivityOptionsResponse extends \lliyplliuk\eBaySDK\ReturnManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

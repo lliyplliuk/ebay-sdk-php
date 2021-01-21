@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Compliance\Types;
+namespace lliyplliuk\eBaySDK\Compliance\Types;
 
 /**
  *
  * @property string $epid
  */
-class ProductRecommendation extends \DTS\eBaySDK\Types\BaseType
+class ProductRecommendation extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

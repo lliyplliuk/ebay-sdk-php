@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Types;
+namespace lliyplliuk\eBaySDK\Test\Fulfillment\Types;
 
-use DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse;
+use lliyplliuk\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse;
 
 class GetShippingFulfillmentsRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetShippingFulfillmentsRestResponseTest extends \PHPUnit_Framework_TestCas
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse', $this->obj);
     }
 
     public function testExtendsShippingFulfillmentPagedCollection()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\ShippingFulfillmentPagedCollection', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Fulfillment\Types\ShippingFulfillmentPagedCollection', $this->obj);
     }
 }

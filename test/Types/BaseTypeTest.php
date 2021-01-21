@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace lliyplliuk\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Types\BaseType;
+use lliyplliuk\eBaySDK\Types\BaseType;
 
 class BaseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,6 +14,6 @@ class BaseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Feedback\Types;
+namespace lliyplliuk\eBaySDK\Feedback\Types;
 
 /**
  *
  * @property string $itemId
  * @property string $transactionId
  */
-class TransactionKey extends \DTS\eBaySDK\Types\BaseType
+class TransactionKey extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

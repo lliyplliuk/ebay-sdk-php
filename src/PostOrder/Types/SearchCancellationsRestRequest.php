@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace lliyplliuk\eBaySDK\PostOrder\Types;
 
 /**
  *
@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\PostOrder\Types;
  * @property string $sort
  * @property string $transaction_id
  */
-class SearchCancellationsRestRequest extends \DTS\eBaySDK\Types\BaseType
+class SearchCancellationsRestRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

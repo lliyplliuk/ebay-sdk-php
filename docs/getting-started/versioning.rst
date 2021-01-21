@@ -7,11 +7,11 @@ As of version 1.0.0 the SDK follows strict `Semantic Versioning <http://semver.o
 Current Version
 ---------------
 
-The SDK provides the constant ``\DTS\eBaySDK\Sdk::VERSION`` that is set to the current version of the SDK.
+The SDK provides the constant ``\lliyplliuk\eBaySDK\Sdk::VERSION`` that is set to the current version of the SDK.
 
 .. code-block:: php
 
-    echo DTS\eBaySDK\Sdk::VERSION;
+    echo lliyplliuk\eBaySDK\Sdk::VERSION;
 
 Service Versions
 ----------------
@@ -20,4 +20,4 @@ The SDK supports many of the different eBay services. You can determine which ve
 
 .. code-block:: php
 
-    echo DTS\eBaySDK\Trading\Services\TradingService::API_VERSION;
+    echo lliyplliuk\eBaySDK\Trading\Services\TradingService::API_VERSION;

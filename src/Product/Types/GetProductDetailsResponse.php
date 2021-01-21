@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace lliyplliuk\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\Product[] $product
+ * @property \lliyplliuk\eBaySDK\Product\Types\Product[] $product
  */
-class GetProductDetailsResponse extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
+class GetProductDetailsResponse extends \lliyplliuk\eBaySDK\Product\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'product' => [
-            'type' => 'DTS\eBaySDK\Product\Types\Product',
+            'type' => 'lliyplliuk\eBaySDK\Product\Types\Product',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'product'

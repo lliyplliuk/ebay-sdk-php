@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test;
+namespace lliyplliuk\eBaySDK\Test;
 
-use DTS\eBaySDK\HttpHandler;
+use lliyplliuk\eBaySDK\HttpHandler;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Request;

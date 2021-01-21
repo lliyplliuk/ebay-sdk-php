@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace lliyplliuk\eBaySDK\Inventory\Types;
 
 /**
  *
@@ -16,11 +16,11 @@ namespace DTS\eBaySDK\Inventory\Types;
  * @property string $locationInstructions
  * @property string $locationWebUrl
  * @property string $name
- * @property \DTS\eBaySDK\Inventory\Types\OperatingHours[] $operatingHours
+ * @property \lliyplliuk\eBaySDK\Inventory\Types\OperatingHours[] $operatingHours
  * @property string $phone
- * @property \DTS\eBaySDK\Inventory\Types\SpecialHours[] $specialHours
+ * @property \lliyplliuk\eBaySDK\Inventory\Types\SpecialHours[] $specialHours
  */
-class InventoryLocation extends \DTS\eBaySDK\Types\BaseType
+class InventoryLocation extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -51,7 +51,7 @@ class InventoryLocation extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'name'
         ],
         'operatingHours' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\OperatingHours',
+            'type' => 'lliyplliuk\eBaySDK\Inventory\Types\OperatingHours',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'operatingHours'
@@ -63,7 +63,7 @@ class InventoryLocation extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'phone'
         ],
         'specialHours' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\SpecialHours',
+            'type' => 'lliyplliuk\eBaySDK\Inventory\Types\SpecialHours',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'specialHours'

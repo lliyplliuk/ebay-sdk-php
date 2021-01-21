@@ -1,9 +1,9 @@
 <?php
-namespace DTS\eBaySDK\Test\Credentials;
+namespace lliyplliuk\eBaySDK\Test\Credentials;
 
-use DTS\eBaySDK\Test\TestTraits\ManageEnv;
-use DTS\eBaySDK\Credentials\CredentialsProvider;
-use DTS\eBaySDK\Credentials\Credentials;
+use lliyplliuk\eBaySDK\Test\TestTraits\ManageEnv;
+use lliyplliuk\eBaySDK\Credentials\CredentialsProvider;
+use lliyplliuk\eBaySDK\Credentials\Credentials;
 
 class CredentialsProvideerTest extends \PHPUnit_Framework_TestCase
 {

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
+namespace lliyplliuk\eBaySDK\Test\BulkDataExchange\Types;
 
-use DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest;
+use lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest;
 
 class GetRecurringJobsRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetRecurringJobsRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\BulkDataExchange\Types\GetRecurringJobsRequest', $this->obj);
     }
 
     public function testExtendsBaseServiceRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
     }
 }

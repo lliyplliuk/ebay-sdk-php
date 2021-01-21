@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace lliyplliuk\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,15 +16,15 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $SKU
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \lliyplliuk\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
- * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \DTS\eBaySDK\Trading\Types\ProductSuggestionsType $ProductSuggestions
- * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property \lliyplliuk\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
+ * @property \lliyplliuk\eBaySDK\Trading\Types\ProductSuggestionsType $ProductSuggestions
+ * @property \lliyplliuk\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
  * @property boolean $VerifyOnly
  */
-class ReviseFixedPriceItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ReviseFixedPriceItemResponseType extends \lliyplliuk\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -55,7 +55,7 @@ class ReviseFixedPriceItemResponseType extends \DTS\eBaySDK\Trading\Types\Abstra
             'elementName' => 'EndTime'
         ],
         'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -79,13 +79,13 @@ class ReviseFixedPriceItemResponseType extends \DTS\eBaySDK\Trading\Types\Abstra
             'elementName' => 'DiscountReason'
         ],
         'ProductSuggestions' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductSuggestionsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\ProductSuggestionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProductSuggestions'
         ],
         'ListingRecommendations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ListingRecommendationsType',
+            'type' => 'lliyplliuk\eBaySDK\Trading\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingRecommendations'

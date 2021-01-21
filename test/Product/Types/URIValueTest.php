@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Product\Types;
+namespace lliyplliuk\eBaySDK\Test\Product\Types;
 
-use DTS\eBaySDK\Product\Types\URIValue;
+use lliyplliuk\eBaySDK\Product\Types\URIValue;
 
 class URIValueTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class URIValueTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\URIValue', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Product\Types\URIValue', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\lliyplliuk\eBaySDK\Types\BaseType', $this->obj);
     }
 }

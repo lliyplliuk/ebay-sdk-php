@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK\OAuth\Types;
+namespace lliyplliuk\eBaySDK\OAuth\Types;
 
 /**
  *
@@ -7,7 +7,7 @@ namespace DTS\eBaySDK\OAuth\Types;
  * @property string $redirect_uri
  * @property string $scope
  */
-class GetAppTokenRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetAppTokenRestRequest extends \lliyplliuk\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

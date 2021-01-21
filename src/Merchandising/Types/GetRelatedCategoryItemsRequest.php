@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Merchandising\Types;
+namespace lliyplliuk\eBaySDK\Merchandising\Types;
 
 /**
  *
  * @property string $itemId
  * @property string $categoryId
- * @property \DTS\eBaySDK\Merchandising\Types\ItemFilter[] $itemFilter
+ * @property \lliyplliuk\eBaySDK\Merchandising\Types\ItemFilter[] $itemFilter
  */
-class GetRelatedCategoryItemsRequest extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest
+class GetRelatedCategoryItemsRequest extends \lliyplliuk\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class GetRelatedCategoryItemsRequest extends \DTS\eBaySDK\Merchandising\Types\Ba
             'elementName' => 'categoryId'
         ],
         'itemFilter' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\ItemFilter',
+            'type' => 'lliyplliuk\eBaySDK\Merchandising\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemFilter'

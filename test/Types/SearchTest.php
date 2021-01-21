@@ -1,8 +1,8 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace lliyplliuk\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
-use DTS\eBaySDK\Test\Mocks\SimpleClass;
+use lliyplliuk\eBaySDK\Test\Mocks\ComplexClass;
+use lliyplliuk\eBaySDK\Test\Mocks\SimpleClass;
 
 class SearchTest extends \PHPUnit_Framework_TestCase
 {
