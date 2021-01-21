@@ -1,8 +1,8 @@
 # EBAY-SDK-PHP
 
-https://github.com/davidtsadler/ebay-sdk-php
+https://github.com/lliyplliuk/ebay-sdk-php
 
-Copyright 2014 David T. Sadler
+Copyright 2014 David T. Sadler, 2021 Aleksander K
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 18.1.0 - 2021-01-21
+
+* Add CategoryId in Bower/Item
+
 ## 18.0.0 - 2018-06-28
 
 ### Features

@@ -1,6 +1,6 @@
 # EBAY-SDK-PHP
 
-**This repository is no longer actively maintained and has been archived.**
+**This repository is no longer actively maintained and has been archived. by David T. Sadler, But Aleksander K support then**
 
 This project enables PHP developers to use the [eBay API](https://go.developer.ebay.com/api-documentation) in their PHP code, and build software using services such as [Finding](http://developer.ebay.com/Devzone/finding/Concepts/FindingAPIGuide.html), [Trading](http://developer.ebay.com/DevZone/guides/ebayfeatures/index.html), [Shopping](http://developer.ebay.com/Devzone/shopping/docs/Concepts/ShoppingAPIGuide.html), etc. You can get started by [installing the SDK via Composer](http://devbay.net/sdk/guides/getting-started/installation.html) and by following the [Basic Usage Guide](http://devbay.net/sdk/guides/getting-started/basic-usage.html).
 
@@ -42,7 +42,7 @@ The SDK can be installed with [Composer](http://getcomposer.org/). Please see th
   1. Install the SDK.
 
      ```
-     php composer.phar require dts/ebay-sdk-php
+     php composer.phar require lliyplliuk/ebay-sdk-php
      ```
 
   1. Require Composer's autoloader by adding the following line to your code.
