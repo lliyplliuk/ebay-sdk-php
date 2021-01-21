@@ -18,6 +18,7 @@ namespace DTS\eBaySDK\Browse\Types;
  * @property string $brand
  * @property string[] $buyingOptions
  * @property string $categoryPath
+ * @property string $categoryId
  * @property string $color
  * @property string $condition
  * @property string $conditionId
@@ -101,6 +102,12 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'categoryPath'
+        ],
+        'categoryId' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'categoryId'
         ],
         'color' => [
             'type' => 'string',

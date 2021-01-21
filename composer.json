@@ -1,5 +1,5 @@
 {
-    "name": "dts/ebay-sdk-php",
+    "name": "lliyplliuk/ebay-sdk-php",
     "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
     "keywords": ["ebay", "api", "sdk"],
     "homepage": "http://devbay.net/",
@@ -7,13 +7,13 @@
     "license": "(Apache-2.0 and MIT)",
     "authors": [
         {
-            "name": "David T. Sadler",
-            "email": "davidtsadler@googlemail.com",
+            "name": "David T. Sadler, Aleksander K",
+            "email": "davidtsadler@googlemail.com, lliyplliuk87@gmail.com",
             "homepage": "http://davidtsadler.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
+        "issues": "https://github.com/lliyplliuk/ebay-sdk-php/issues"
     },
     "require": {
         "php": ">=5.5",

@@ -6,6 +6,8 @@ This project enables PHP developers to use the [eBay API](https://go.developer.e
 
 This is a personal project that has been developed by me, [David T. Sadler](http://twitter.com/davidtsadler). I decided to create this project to make up for the lack of an official SDK for PHP. It is in no way endorsed, sponsored or maintained by eBay.
 
+Added id Category in Bower/item by LLIypLLIuk
+
 ## Features
 
   - Compatible with PHP 5.5 or greater.
